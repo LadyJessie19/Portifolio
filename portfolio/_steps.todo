@@ -1,0 +1,92 @@
+First - Beginning: 
+    ✔ I'm starting this todo at; @done(23-06-22 21:51)
+    ✔ Create Github remote rep; @done(23-06-22 21:51)
+    ✔ Git Branches creation; @done(23-06-23 01:05)
+    ✔ Choose a figma layout; @done(23-06-22 21:51)
+    ✔ Init vite-react project; @done(23-06-22 21:51)
+    ✔ Change background color; @done(23-06-22 21:51)
+Second - Preparation/Assets: @est(Monday 23-06-26 23:59)
+    ☐ Which projects will I show?;
+    ☐ Github reps to the projects;
+    ☐ Images at assets folder;
+    ☐ 2 Jessie photos;
+    ☐ Jessie Moura Logo;
+    ☐ Short Logo;
+    ☐ Prepare the global css file;
+    ☐ Color Pallets(rooting css colors);
+        ☐ Background-gray;
+        ☐ Cherry-Pink;
+        ☐ Light-grey;
+        ☐ Soft-blue;
+        ☐ Candy-green;
+        ☐ White-screen;
+    ☐ Icons;
+    ☐ Font;
+    ☐ Design Elements Layout;
+Third - Layout: @est(Monday 23-07-03 23:59)
+    Reusable Elements: @est(Tuesday 23-06-27 23:59)
+        ☐ Main button;
+        ☐ NavBar;
+        ☐ TinySideBar;
+        ☐ Header-title;
+        ☐ Big-project card;
+        ☐ Small-project card;
+        ☐ Skill card;
+        ☐ Message me card;
+        ☐ Footer;
+    Stucture Project: @est(Tuesday 23-06-27 23:59)
+        ☐ Comps creation;
+        ☐ 2 Main Comps: PT-BR and EN-US
+    Pages: @est(Monday 23-07-03 23:59)
+        ☐ Tip! Use _comps.todo_ file to see the comps path;
+        ☐ Home; @est(Wednesday 23-06-28 23:59)
+        ☐ Projects; @est(Thursday 23-06-29 23:59)
+            ☐ Programming;(3 Cards); 
+            ☐ UX Design(3 Cards);
+        ☐ Skills; @est(Friday 23-06-30 23:59)
+        ☐ About Me; @est(Friday 23-06-30 23:59)
+        ☐ Contact; @est(Monday 23-07-03 23:59)
+Fourth - Text: @est(Thursday 23-07-06 23:59)
+    ☐ Introduction;
+    ☐ Motivation phrase;
+    ☐ Projects Programming: 
+        ☐ ReHT;
+        ☐ String formating JS/C#;
+        ☐ I-Common Manual;
+        ☐ Arnia - Task Manager;
+        ☐ Arnia - Wexer Psi Frontend;
+        ☐ Arnia - Wexer Psi Backend;
+        ☐ Smaller projects: 
+            ☐ Grocery Store; 
+            ☐ Kanban;
+    ☐ Projects UX Design:
+        ☐ One;
+        ☐ Two;
+        ☐ Three;
+    ☐ Skills:
+        ☐ Languages;
+        ☐ Databases;
+        ☐ Tools;
+        ☐ Libs;
+        ☐ Frameworks;
+    ☐ About-Me;
+    ☐ My Fun Facts;
+    ☐ Contacts;
+Fifth - Responsivity: @est(Friday 23-07-07 23:59)
+    ☐ Mobile Breakpoints;
+Sixth - Last Features: @est(Monday 23-07-10 23:59)
+    ☐ English/Portuguese;
+    ☐ Test React Routes;
+Seventh - Deploy: @est(Tuesday 23-07-11 23:59)
+    ☐ Main Commit - pull request;
+    ☐ Vercel;
+    ☐ Github;
+    ☐ MD Files update;
+Eighth - After: @est(23-10-03 23:59)
+    ☐ Matching CV;
+    ☐ Add a *"download CV"* button;
+    ☐ Matching Linktree;
+    ☐ Add section Medium posts;
+        ☐ Bard;
+        ☐ SOLID Principles;
+        ☐ Design UX;

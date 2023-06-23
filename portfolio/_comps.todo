@@ -1,0 +1,67 @@
+Home:
+    Intro:
+        ☐ Navbar;
+        ☐ Tiny side bar social media;
+        ☐ Introdution;
+        ☐ Cck Photo + status;
+        ☐ Powerful quote;
+    Projects: 
+        ☐ Attention! Show 3 projects.
+        ☐ project-card;
+        ☐ project info obj;
+        ☐ projects.map;
+        ☐ Projects Programming;
+        ☐ Projects UX;
+    Skills:
+        ☐ Draws;
+        ☐ Skills cards;
+        ☐ Attention! The display is shorty;
+    About-me:
+        ☐ About me text;
+        ☐ My Potho;
+    Contacts:
+        ☐ Tiny text to contact;
+        ☐ Message me comp;
+    Footer:
+        ☐ Logo;
+        ☐ Email;
+        ☐ Occupation;
+        ☐ Social Media Logos
+        ☐ Copyrigths;
+Works:
+    ☐ Reuse home navbar comp;
+    ☐ Reuse home tinySideBar comp;
+    ☐ Create header-title comp;
+    ☐ Attention! Show all projects.
+    ☐ Reuse projects home comp;
+    ☐ smaller projects comp:
+        ☐ smaller project card;
+    ☐ Reuse Home comp Footer;
+About-me:
+    ☐ Reuse home navbar comp;
+    ☐ Reuse home tinySideBar comp;
+    ☐ Reuse header-title works comp;
+    ☐ Resuse About me home comp;
+    ☐ Resuse Skills home comp;
+    ☐ Attention! The display is lengthy;
+    ☐ My fun facts comp;
+    ☐ Resuse Home comp Footer;
+Contacts:
+    ☐ Reuse home navbar comp;
+    ☐ Reuse home tinySideBar comp;
+    ☐ Reuse header-title works comp;
+    ☐ Reuse contact-me home comp;
+    ☐ All media comp - Social Medias:
+        ☐ Email;
+        ☐ Discord;
+        ☐ Slack;
+        ☐ LinkedIn;
+        ☐ Medium;
+        ☐ Instagram;
+        ☐ Behance;
+        ☐ Github;
+        ☐ Twitter;
+    ☐ Reuse footer home comp;
+
+Responsivity:
+Translation:
