@@ -6,7 +6,7 @@ figma: https://www.figma.com/file/VwTA6Nv74MbhBQsJGj7mH6/Portfolio-Jessie?type=d
 
 ## Sobre Mim
 
-Olá, meu nome é Jéssica Moura e sou uma desenvolvedora Full Stack. Neste portfólio, gostaria de apresentar meu trabalho e experiência com desevolvimento web.
+Olá, meu nome é Jéssica Moura e sou uma desenvolvedora Fullstack. Neste portfólio, gostaria de apresentar meu trabalho e experiência com desevolvimento web.
 
 ## Experiência Profissional
 
