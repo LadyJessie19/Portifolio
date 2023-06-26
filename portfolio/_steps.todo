@@ -12,16 +12,17 @@ Second - Preparation/Assets: @est(Monday 23-06-26 23:59)
     ☐ 2 Jessie photos;
     ☐ Jessie Moura Logo;
     ☐ Short Logo;
-    ☐ Prepare the global css file;
-    ☐ Color Pallets(rooting css colors);
-        ☐ Background-gray;
-        ☐ Cherry-Pink;
-        ☐ Light-grey;
-        ☐ Soft-blue;
-        ☐ Candy-green;
-        ☐ White-screen;
+    ✔ Prepare the global css file; @done(23-06-26 17:01)
+    ✔ Color Pallets(rooting css colors); @done(23-06-26 16:38)
+        ✔ Background-gray; @done(23-06-26 16:38)
+        ✔ Cherry-pink; @done(23-06-26 16:38)
+        ✔ Original-pink; @done(23-06-26 16:38)
+        ✔ Light-grey; @done(23-06-26 16:38)
+        ✔ Soft-blue; @done(23-06-26 16:38)
+        ✔ Candy-green; @done(23-06-26 16:38)
+        ✔ White-screen; @done(23-06-26 16:38)
     ☐ Icons;
-    ☐ Font;
+    ✔ Font; @done(23-06-26 16:38)
     ☐ Design Elements Layout;
 Third - Layout: @est(Monday 23-07-03 23:59)
     Reusable Elements: @est(Tuesday 23-06-27 23:59)
