@@ -1,17 +1,17 @@
-First - Beginning: 
+✔ First - Beginning: @done(23-06-22 21:52)
     ✔ I'm starting this todo at; @done(23-06-22 21:51)
     ✔ Create Github remote rep; @done(23-06-22 21:51)
     ✔ Git Branches creation; @done(23-06-23 01:05)
     ✔ Choose a figma layout; @done(23-06-22 21:51)
     ✔ Init vite-react project; @done(23-06-22 21:51)
     ✔ Change background color; @done(23-06-22 21:51)
-Second - Preparation/Assets: @est(Monday 23-06-26 23:59)
-    ☐ Which projects will I show?;
-    ☐ Github reps to the projects;
-    ☐ Images at assets folder;
-    ☐ 2 Jessie photos;
-    ☐ Jessie Moura Logo;
-    ☐ Short Logo;
+✔ Second - Preparation/Assets: @est(Monday 23-06-26 23:59) @done(23-06-26 22:02)
+    ✔ Which projects will I show?; @done(23-06-26 22:02)
+    ✔ Github reps to the projects; @done(23-06-26 22:02)
+    ✔ Images at assets folder; @done(23-06-26 22:02)
+    ✔ 2 photos; @done(23-06-26 18:28)
+    ✔ Logo; @done(23-06-26 18:28)
+    ✔ 2 Short Logos; @done(23-06-26 18:28)
     ✔ Prepare the global css file; @done(23-06-26 17:01)
     ✔ Color Pallets(rooting css colors); @done(23-06-26 16:38)
         ✔ Background-gray; @done(23-06-26 16:38)
@@ -21,9 +21,9 @@ Second - Preparation/Assets: @est(Monday 23-06-26 23:59)
         ✔ Soft-blue; @done(23-06-26 16:38)
         ✔ Candy-green; @done(23-06-26 16:38)
         ✔ White-screen; @done(23-06-26 16:38)
-    ☐ Icons;
+    ✔ Icons; @done(23-06-26 18:28)
     ✔ Font; @done(23-06-26 16:38)
-    ☐ Design Elements Layout;
+    ✔ Design Elements Layout; @done(23-06-26 18:58)
 Third - Layout: @est(Monday 23-07-03 23:59)
     Reusable Elements: @est(Tuesday 23-06-27 23:59)
         ☐ Main button;
@@ -35,9 +35,11 @@ Third - Layout: @est(Monday 23-07-03 23:59)
         ☐ Skill card;
         ☐ Message me card;
         ☐ Footer;
+        ☐ Square Decor Grey Large;
+        ☐ Square Decor Grey Small;
     Stucture Project: @est(Tuesday 23-06-27 23:59)
         ☐ Comps creation;
-        ☐ 2 Main Comps: PT-BR and EN-US
+        ☐ 2 Main Comps: PT-BR and EN-US;
     Pages: @est(Monday 23-07-03 23:59)
         ☐ Tip! Use _comps.todo_ file to see the comps path;
         ☐ Home; @est(Wednesday 23-06-28 23:59)
@@ -84,6 +86,10 @@ Seventh - Deploy: @est(Tuesday 23-07-11 23:59)
     ☐ Github;
     ☐ MD Files update;
 Eighth - After: @est(23-10-03 23:59)
+    ☐ Switch default photos:
+        ☐ 2 Jessie photos;
+        ☐ Jessie Moura Logo;
+        ☐ Jessie Moura Short Logo;
     ☐ Matching CV;
     ☐ Add a *"download CV"* button;
     ☐ Matching Linktree;
