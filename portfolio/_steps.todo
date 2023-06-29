@@ -25,7 +25,7 @@
     ✔ Font; @done(23-06-26 16:38)
     ✔ Design Elements Layout; @done(23-06-26 18:58)
 Third - Layout: @est(Monday 23-07-03 23:59)
-    Reusable Elements: @est(Tuesday 23-06-27 23:59)
+    Reusable Elements: @est(Tuesday 23-07-17 23:59)
         ☐ Main button;
         ☐ NavBar;
         ☐ TinySideBar;
@@ -37,31 +37,35 @@ Third - Layout: @est(Monday 23-07-03 23:59)
         ☐ Footer;
         ☐ Square Decor Grey Large;
         ☐ Square Decor Grey Small;
-    Stucture Project: @est(Tuesday 23-06-27 23:59)
+    Stucture Project: 
         ☐ Comps creation;
         ☐ 2 Main Comps: PT-BR and EN-US;
-    Pages: @est(Monday 23-07-03 23:59)
+    Pages:
         ☐ Tip! Use _comps.todo_ file to see the comps path;
-        ☐ Home; @est(Wednesday 23-06-28 23:59)
-        ☐ Projects; @est(Thursday 23-06-29 23:59)
+        ☐ Home;
+        ☐ Projects;
             ☐ Programming;(3 Cards); 
             ☐ UX Design(3 Cards);
-        ☐ Skills; @est(Friday 23-06-30 23:59)
-        ☐ About Me; @est(Friday 23-06-30 23:59)
-        ☐ Contact; @est(Monday 23-07-03 23:59)
-Fourth - Text: @est(Thursday 23-07-06 23:59)
+        ☐ Skills; 
+        ☐ Certificates;
+        ☐ BlogPosts;
+        ☐ About Me; 
+        ☐ Contact; 
+Fourth - Text: 
     ☐ Introduction;
     ☐ Motivation phrase;
     ☐ Projects Programming: 
         ☐ ReHT;
         ☐ String formating JS/C#;
-        ☐ I-Common Manual;
+        ☐ PicGram;
         ☐ Arnia - Task Manager;
         ☐ Arnia - Wexer Psi Frontend;
         ☐ Arnia - Wexer Psi Backend;
         ☐ Smaller projects: 
             ☐ Grocery Store; 
-            ☐ Kanban;
+            ☐ Shopping Store; 
+            ☐ Kanban Backend;
+            ☐ Kanban Frontend;
     ☐ Projects UX Design:
         ☐ One;
         ☐ Two;
@@ -72,20 +76,22 @@ Fourth - Text: @est(Thursday 23-07-06 23:59)
         ☐ Tools;
         ☐ Libs;
         ☐ Frameworks;
+    ☐ Certificates;
+    ☐ BlogPosts;
     ☐ About-Me;
     ☐ My Fun Facts;
     ☐ Contacts;
-Fifth - Responsivity: @est(Friday 23-07-07 23:59)
+Fifth - Responsivity: 
     ☐ Mobile Breakpoints;
-Sixth - Last Features: @est(Monday 23-07-10 23:59)
+Sixth - Last Features:
     ☐ English/Portuguese;
     ☐ Test React Routes;
-Seventh - Deploy: @est(Tuesday 23-07-11 23:59)
+Seventh - Deploy:
     ☐ Main Commit - pull request;
     ☐ Vercel;
     ☐ Github;
     ☐ MD Files update;
-Eighth - After: @est(23-10-03 23:59)
+Eighth - After: 
     ☐ Switch default photos:
         ☐ 2 Jessie photos;
         ☐ Jessie Moura Logo;
@@ -97,3 +103,5 @@ Eighth - After: @est(23-10-03 23:59)
         ☐ Bard;
         ☐ SOLID Principles;
         ☐ Design UX;
+        ☐ Colors Theory;
+        ☐ Soft Skills;

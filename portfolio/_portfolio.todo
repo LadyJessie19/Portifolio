@@ -1,0 +1,87 @@
+Projects:
+    ☐ Arnia_Task_Manager
+    ☐ Fullstack_KanbanLite
+    ☐ Backend_KanbanLite
+    ☐ Frontend_KanbanLite
+    ☐ Hortifruti_Ecommerce
+    ☐ Shopping_E-commerce
+    ☐ PictureGram_Social_Media
+    ☐ ReHT_Table_Generator
+    ☐ String-Format-JS-CSharp
+    ☐ wexerBackend
+    ☐ wexerFrontend
+
+Main Projects:
+    Follow the numbers order
+    1.Arnia_Task_Manager:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ My best full project
+
+    2.ReHT_Table_Generator:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Organizar os arquivos
+            ☐ Atualizar o manual
+    
+    3.PictureGram_Social_Media:
+        ☐ Markup Description:
+        ☐ This project is done?
+        ✔ This project hasn't started yet? @done(23-06-29 05:45)
+        Notes:
+            ☐ Preciso fazer projeto com Matheus Battisti
+
+    4.wexerBackend:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Vou trabalhar nisso durante o mês de julho
+    The projects bellow can be done after
+    wexerFrontend:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ ...Não têm choro!
+
+    String-Format-JS-CSharp:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Precisa de bastantes ajustes
+    
+        Fullstack_KanbanLite:
+        ☐ Markup Description:
+        ☐ This project is done?
+        ✔ This project hasn't started yet? @done(23-06-29 05:45)
+        Notes:
+            ☐ Esse pode ser bem o último projeto a ser feito
+
+
+Academic Projects:
+    Backend_KanbanLite:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Continuar o exercício do Victor
+
+    Frontend_KanbanLite:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Falta as funções de editar e deletar nos cards
+            ☐ Melhorar o layout
+
+    Hortifruti_Ecommerce:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Colocar uma ação no botão "fechar carrinho"
+
+    Shopping_E-commerce:
+        ☐ Markup Description:
+        ☐ This project is done?
+        Notes:
+            ☐ Arrumação, mas bem básica mesmo
+            ☐ remover o alert do finalizar compra
