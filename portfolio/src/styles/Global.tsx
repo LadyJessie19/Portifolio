@@ -1,6 +1,9 @@
- @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+import { createGlobalStyle } from "styled-components";
 
-:root {
+const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+  :root {
     --Background-grey: #1E1E1E;
     --Cherry-pink: #FF88D1;
     --Candy-green: #98C379;
@@ -11,13 +14,19 @@
     --White-screen: #faf9f9;
 
     --Main-font: 'Fira Code';
-}
+  }
 
-body{
+  body {
+    font-family: var(--Main-font), sans-serif;
     background-color: var(--Background-grey);
-}
+  }
 
-.c-darkGrey{
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .c-darkGrey{
     color: var(--Background-grey)
 }
 
@@ -83,7 +92,6 @@ body{
 .a-center {
     align-items: center;
 }
+`;
 
-.b-test {
-    border: 1px solid red;
-}
+export default GlobalStyle;
