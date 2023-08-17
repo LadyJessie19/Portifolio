@@ -1,8 +1,18 @@
-import React from 'react'
+import { StyledSkillCard } from "../../styles/ReusableStyles"
 
-const SkillCard = () => {
+interface IProps {
+  category:string,
+  tools:string
+}
+
+const SkillCard = ({category, tools}:IProps) => {
   return (
-    <div>SkillCard</div>
+    <>
+      <StyledSkillCard>
+        <div className="first-row">{category}</div>
+        <div className="second-row">{tools}</div>
+      </StyledSkillCard>
+    </>
   )
 }
 

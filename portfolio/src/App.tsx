@@ -9,6 +9,7 @@ import Certificates from './components/pages/Certificates';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
 import Skills from './components/pages/Skills';
+import Reusable from "./components/pages/Reusable";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
 
       <Router>
       <Routes>
-        <Route path="/" Component={Home} />
+        <Route path="/" Component={Reusable} />
+        <Route path="/home" Component={Home} />
         <Route path="/about" Component={AboutMe} />
         <Route path="/blog" Component={BlogPosts} />
         <Route path="/certificates" Component={Certificates} />

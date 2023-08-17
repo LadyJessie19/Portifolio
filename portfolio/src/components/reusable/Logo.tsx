@@ -1,8 +1,8 @@
-import React from 'react'
-
-const Logo = () => {
+const Logo = ({img}:any) => {
   return (
-    <div>Logo</div>
+    <>
+      <img src={img} alt="logo" />
+    </>
   )
 }
 

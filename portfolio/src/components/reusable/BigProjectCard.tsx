@@ -1,9 +1,36 @@
-import React from 'react'
+import { StyledBigCardProject } from "../../styles/ReusableStyles";
+import MainButton from "./MainButton";
 
-const BigProjectCard = () => {
-  return (
-    <div>BigProjectCard</div>
-  )
+interface IProps {
+  img: any;
+  tools: string;
+  name: string;
+  description: string;
+  link: string;
 }
 
-export default BigProjectCard
+const BigProjectCard = ({ img, tools, name, description, link }: IProps) => {
+  return (
+    <>
+      <StyledBigCardProject>
+        <div>
+          <img src={img} />
+        </div>
+        <div>{tools}</div>
+        <div>
+          <div>
+            <h4>{name}</h4>
+          </div>
+          <div>
+            <p>{description}</p>
+          </div>
+          <div>
+            <MainButton text="Repository" link={link} />
+          </div>
+        </div>
+      </StyledBigCardProject>
+    </>
+  );
+};
+
+export default BigProjectCard;

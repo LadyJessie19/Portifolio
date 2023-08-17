@@ -27,20 +27,20 @@
 Third - Layout: 
     ✔ Install styled comps and router dom @done(23-08-16 07:31)
     Reusable Elements:
-        ☐ Main button;
-        ☐ NavBar;
-        ☐ TinySideBar;
-        ☐ Header-title;
-        ☐ Big-project card;
+        ✔ Main button; @done(23-08-16 20:29)
+        ✔ NavBar; @done(23-08-17 01:24)
+        ✔ TinySideBar; @done(23-08-16 22:37)
+        ✔ Header-title; @done(23-08-17 07:09)
+        ✔ Big-project card; @done(23-08-17 07:09)
         ☐ Small-project card;
         ☐ Skill card;
         ☐ Message me card;
         ☐ Footer;
-        ☐ Square Decor Grey Large;
-        ☐ Square Decor Grey Small;
+        ✔ Square Decor Grey Large; @done(23-08-16 23:04)
+        ✔ Square Decor Grey Small; @done(23-08-16 23:04)
 
-        ☐ Logo
-        ☐ MainImg
+        ✔ Logo @done(23-08-16 20:29)
+        ✔ MainImg @done(23-08-17 07:09)
     Stucture Project: 
         ☐ Comps creation;
         ☐ 2 Main Comps: PT-BR and EN-US;
@@ -58,8 +58,8 @@ Third - Layout:
 
         ✔ Configure the paths at react-router-dom; @done(23-08-16 07:26)
 Fourth - Text: 
-    ☐ Introduction;
-    ☐ Motivation phrase;
+    ✔ Introduction; @done(23-08-17 07:10)
+    ✔ Motivation phrase; @done(23-08-17 07:10)
     ☐ Projects Programming: 
         ☐ ReHT;
         ☐ String formating JS/C#;

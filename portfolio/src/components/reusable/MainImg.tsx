@@ -1,8 +1,10 @@
-import React from 'react'
+import Jessica from "../../assets/jessica.png"
 
 const MainImg = () => {
   return (
-    <div>MainImg</div>
+    <>
+      <img src={Jessica} alt="Jessica" />
+    </>
   )
 }
 

@@ -1,12 +1,24 @@
-import { StyledMainButton } from '../../styles/Reusable'
+import { StyledMainButton } from '../../styles/ReusableStyles'
 import { Link } from "react-router-dom";
 
-const MainButton = ({text, path, action}:any) => {
+interface IProps {
+  text:string,
+  path?:string,
+  action?: () => any,
+  link?:string
+}
+
+const MainButton = ({text, path, action, link}:IProps) => {
   return (
     <>
+      {link ? <StyledMainButton>
+                <a href={link} target="_blank">{text}</a>
+              </StyledMainButton>
+        : 
         <StyledMainButton onClick={action}>
-            <Link to={path}>{text}</Link>
+          <Link to={path}>{text}</Link>
         </StyledMainButton>
+        }
     </>
   )
 }
