@@ -14,7 +14,7 @@ const BigProjectCard = ({ img, tools, name, description, link }: IProps) => {
     <>
       <StyledBigCardProject>
         <div>
-          <img src={img} />
+          <img src={img} width={'290px'}/>
         </div>
         <div>{tools}</div>
         <div>

@@ -32,18 +32,25 @@ Third - Layout:
         ✔ TinySideBar; @done(23-08-16 22:37)
         ✔ Header-title; @done(23-08-17 07:09)
         ✔ Big-project card; @done(23-08-17 07:09)
-        ☐ Small-project card;
-        ☐ Skill card;
-        ☐ Message me card;
-        ☐ Footer;
+        ✔ Small-project card; @done(23-08-18 05:22)
+        ✔ Skill card; @done(23-08-18 05:22)
+        ✔ Message me card; @done(23-08-18 05:22)
+        ✔ Footer; @done(23-08-18 05:22)
         ✔ Square Decor Grey Large; @done(23-08-16 23:04)
         ✔ Square Decor Grey Small; @done(23-08-16 23:04)
 
         ✔ Logo @done(23-08-16 20:29)
         ✔ MainImg @done(23-08-17 07:09)
     Stucture Project: 
-        ☐ Comps creation;
-        ☐ 2 Main Comps: PT-BR and EN-US;
+        ✔ Comps creation; @done(23-08-18 05:23)
+        ✔ 2 Main Comps: PT-BR and EN-US; @done(23-08-18 05:23)
+
+        ☐ Create the info arrays:
+            ☐ Certificates;
+            ☐ Projects;
+            ☐ BlogPosts;
+            ☐ Skills;
+        
     Pages:
         ☐ Tip! Use _comps.todo_ file to see the comps path;
         ☐ Home;

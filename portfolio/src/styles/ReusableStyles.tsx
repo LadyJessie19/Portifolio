@@ -84,11 +84,39 @@ export const StyledBigCardProject = styled.div`
   padding: 1rem;
 `;
 
-export const StyledProjectsSection = styled.div`
+export const StyledSmallCardProject = styled.div`
+  border: 1px solid ${colors.LightGrey};
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-family: "Fira Code";
+
+  .first-row {
+    padding: 0.5rem 0.5rem;
+    color: ${colors.LightGrey};
+  }
+
+  .second-row {
+    border-top: 1px solid ${colors.LightGrey};
+    padding: 1rem;
+  }
+
+  .row-one {
+    font-size: 24px;
+    color: ${colors.WhiteScreen};
+    margin-bottom: 0.5rem;
+  }
+  .row-two {
+    color: ${colors.LightGrey};
+    margin-bottom: 0.7rem;
+  }
+`;
+
+export const StyledContentSection = styled.div`
   display: flex;
   flex-direction: column;
 
-  .projects-row {
+  .inner-section {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -98,28 +126,28 @@ export const StyledProjectsSection = styled.div`
 
 export const StyledSectionHeader = styled.div`
   display: flex;
-  margin: 5% 0% 2% 14%;
-  width: 100%;
+  margin: 1% 14%;
 
-  .inner-header{
+  .inner-header {
+    max-width: 99vw;
     display: flex;
-    gap: 18rem;
     align-items: center;
+    gap: 17rem;
   }
-  .left-header{
+  .left-header {
     display: flex;
     color: ${colors.WhiteScreen};
     font-size: 26px;
   }
-  .left-header>img{
-    margin-left: .5rem;
+  .left-header > img {
+    margin-left: 0.5rem;
   }
-  p>span{
+  p > span {
     color: ${colors.CherryPink};
   }
-  .right-header{
+  .right-header {
     display: flex;
-    color: ${colors.WhiteScreen}
+    color: ${colors.WhiteScreen};
   }
 `;
 
@@ -131,9 +159,9 @@ export const StyledSkillsSection = styled.div`
     display: flex;
     justify-content: center;
     gap: 7rem;
-    width: 100%;
+    /* width: 100%; */
   }
-  .right-side{
+  .right-side {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -144,12 +172,93 @@ export const StyledSkillsSection = styled.div`
 
 export const StyledSkillCard = styled.div`
   border: 1px solid ${colors.LightGrey};
-  
-  .first-row{
-    padding: .3rem;
+  color: ${colors.LightGrey};
+
+  .first-row {
+    padding: 0.3rem;
   }
-  .second-row{
-    padding: .5rem;
+  .second-row {
+    padding: 0.5rem;
     border-top: 1px solid ${colors.LightGrey};
+  }
+`;
+
+export const StyledGeneralCard = styled.div`
+  border: 1px solid ${colors.LightGrey};
+  max-width: 20%;
+
+  .first-row {
+    text-align: center;
+    padding: 0.3rem;
+  }
+  .first-row > img {
+    width: 200px;
+  }
+  .second-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid ${colors.LightGrey};
+    color: ${colors.LightGrey};
+  }
+  h3 {
+    color: ${colors.WhiteScreen};
+    font-weight: 400;
+  }
+`;
+
+export const StyledMessageMeCard = styled.div`
+  border: 1px solid ${colors.LightGrey};
+  width: 18%;
+  padding: 0.5rem;
+
+  h3 {
+    color: ${colors.WhiteScreen};
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    color: ${colors.LightGrey};
+    cursor: pointer;
+  }
+  .row:hover {
+    background-color: ${colors.CandyGreen};
+    color: ${colors.BackgroundGrey};
+  }
+`;
+
+export const StyledFooter = styled.div`
+  margin: 1rem 0 0 0;
+  border-top: 1px solid ${colors.LightGrey};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .first-row {
+    width: 70%;
+    color: ${colors.WhiteScreen};
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .second-row {
+    color: ${colors.LightGrey};
+    text-align: center;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer-text {
+    color: ${colors.LightGrey};
+    display: flex;
+    gap: 1rem;
   }
 `;
