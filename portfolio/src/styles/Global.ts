@@ -19,6 +19,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: var(--Main-font), sans-serif;
     background-color: var(--Background-grey);
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   a {

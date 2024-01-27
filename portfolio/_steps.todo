@@ -53,15 +53,15 @@ Third - Layout:
         
     Pages:
         ☐ Tip! Use _comps.todo_ file to see the comps path;
-        ☐ Home;
-        ☐ Projects;
-            ☐ Programming;(3 Cards); 
-            ☐ UX Design(3 Cards);
-        ☐ Skills; 
-        ☐ Certificates;
-        ☐ BlogPosts;
-        ☐ About Me; 
-        ☐ Contact;
+        ✔ Home; @done(24-01-26 20:04)
+        ✔ Projects; @done(24-01-26 20:04)
+            ✔ Programming;(3 Cards); @done(24-01-26 20:04)
+            ✔ UX Design(3 Cards); @done(24-01-26 20:04)
+        ✔ Skills; @done(24-01-26 20:04)
+        ✔ Certificates; @done(24-01-26 20:04)
+        ✔ BlogPosts; @done(24-01-26 20:04)
+        ✔ About Me; @done(24-01-26 20:04)
+        ✔ Contact; @done(24-01-26 20:04)
 
         ✔ Configure the paths at react-router-dom; @done(23-08-16 07:26)
 Fourth - Text: 

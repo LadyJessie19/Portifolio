@@ -1,75 +1,75 @@
 Home:
     Intro:
-        ☐ Navbar;
-        ☐ Tiny side bar social media;
-        ☐ Introdution;
-        ☐ Cck Photo + status;
-        ☐ Powerful quote;
+        ✔ Navbar; @done(24-01-24 18:47)
+        ✔ Tiny side bar social media; @done(24-01-24 18:47)
+        ✔ Introdution; @done(24-01-24 20:12)
+        ✔ Cck Photo + status; @done(24-01-24 20:12)
+        ✔ Powerful quote; @done(24-01-24 20:12)
     Projects: 
-        ☐ Attention! Show 3 projects.
-        ☐ project-card;
-        ☐ project info obj;
-        ☐ projects.map;
-        ☐ Projects Programming;
-        ☐ Projects UX;
+        ✔ Attention! Show 3 projects. @done(24-01-24 20:12)
+        ✔ project-card; @done(24-01-24 20:12)
+        ✔ project info obj; @done(24-01-24 20:12)
+        ✔ projects.map; @done(24-01-24 20:12)
+        ✔ Projects Programming; @done(24-01-26 20:00)
+        ✔ Projects UX; @done(24-01-26 20:00)
     Skills:
-        ☐ Draws;
-        ☐ Skills cards;
-        ☐ Attention! The display is shorty;
+        ✔ Draws; @done(24-01-24 20:13)
+        ✔ Skills cards; @done(24-01-24 20:13)
+        ✔ Attention! The display is shorty; @done(24-01-24 20:13)
     Certificates:
-        ☐ Atention! I'm adding two sections: Certificates and BlogPosts. 
-        ☐ Is the very same of projects, both Home section and single page.
-        ☐ Attention! The display is shorty;
+        ✔ Atention! I'm adding two sections: Certificates and BlogPosts. @done(24-01-24 20:13)
+        ✔ Is the very same of projects, both Home section and single page. @done(24-01-26 20:00)
+        ✔ Attention! The display is shorty; @done(24-01-26 20:00)
     BlogPosts:
-        ☐ Atention! I'm adding two sections: Certificates and BlogPosts. 
-        ☐ Is the very same of projects, both Home section and single page.
-        ☐ Attention! The display is shorty;
+        ✔ Atention! I'm adding two sections: Certificates and BlogPosts. @done(24-01-24 20:13)
+        ✔ Is the very same of projects, both Home section and single page. @done(24-01-26 20:00)
+        ✔ Attention! The display is shorty; @done(24-01-26 20:00)
     About-me:
-        ☐ About me text;
-        ☐ My Potho;
+        ✔ About me text; @done(24-01-26 20:00)
+        ✔ My Potho; @done(24-01-26 20:00)
     Contacts:
-        ☐ Tiny text to contact;
-        ☐ Message me comp;
+        ✔ Tiny text to contact; @done(24-01-26 20:00)
+        ✔ Message me comp; @done(24-01-26 20:00)
     Footer:
-        ☐ Logo;
-        ☐ Email;
-        ☐ Occupation;
-        ☐ Social Media Logos
-        ☐ Copyrigths;
+        ✔ Logo; @done(24-01-24 20:14)
+        ✔ Email; @done(24-01-24 20:14)
+        ✔ Occupation; @done(24-01-24 20:14)
+        ✔ Social Media Logos; @done(24-01-24 20:14)
+        ✔ Copyrigths; @done(24-01-24 20:14)
 Works:
-    ☐ Reuse home navbar comp;
-    ☐ Reuse home tinySideBar comp;
-    ☐ Create header-title comp;
-    ☐ Attention! Show all projects.
-    ☐ Reuse projects home comp;
-    ☐ smaller projects comp:
-        ☐ smaller project card;
-    ☐ Reuse Home comp Footer;
+    ✔ Reuse home navbar comp; @done(24-01-26 20:00)
+    ✔ Reuse home tinySideBar comp; @done(24-01-26 20:00)
+    ✔ Create header-title comp; @done(24-01-26 20:00)
+    ✔ Attention! Show all projects. @done(24-01-26 20:00)
+    ✔ Reuse projects home comp; @done(24-01-26 20:00)
+    ✔ smaller projects comp: @done(24-01-26 20:00)
+        ✔ smaller project card; @done(24-01-26 20:00)
+    ✔ Reuse Home comp Footer; @done(24-01-26 20:00)
 About-me:
-    ☐ Reuse home navbar comp;
-    ☐ Reuse home tinySideBar comp;
-    ☐ Reuse header-title works comp;
-    ☐ Resuse About me home comp;
-    ☐ Resuse Skills home comp;
-    ☐ Attention! The display is lengthy;
-    ☐ My fun facts comp;
-    ☐ Resuse Home comp Footer;
+    ✔ Reuse home navbar comp; @done(24-01-26 20:00)
+    ✔ Reuse home tinySideBar comp; @done(24-01-26 20:00)
+    ✔ Reuse header-title works comp; @done(24-01-26 20:00)
+    ✔ Resuse About me home comp; @done(24-01-26 20:00)
+    ✔ Resuse Skills home comp; @done(24-01-26 20:00)
+    ✔ Attention! The display is lengthy; @done(24-01-26 20:01)
+    ✔ My fun facts comp; @done(24-01-26 20:01)
+    ✔ Resuse Home comp Footer; @done(24-01-26 20:01)
 Contacts:
-    ☐ Reuse home navbar comp;
-    ☐ Reuse home tinySideBar comp;
-    ☐ Reuse header-title works comp;
-    ☐ Reuse contact-me home comp;
-    ☐ All media comp - Social Medias:
-        ☐ Email;
-        ☐ Discord;
-        ☐ Slack;
-        ☐ LinkedIn;
-        ☐ Medium;
-        ☐ Instagram;
-        ☐ Behance;
-        ☐ Github;
-        ☐ Twitter;
-    ☐ Reuse footer home comp;
+    ✔ Reuse home navbar comp; @done(24-01-26 20:01)
+    ✔ Reuse home tinySideBar comp; @done(24-01-26 20:01)
+    ✔ Reuse header-title works comp; @done(24-01-26 20:01)
+    ✔ Reuse contact-me home comp; @done(24-01-26 20:01)
+    ✔ All media comp - Social Medias: @done(24-01-26 20:01)
+        ✔ Email; @done(24-01-26 20:01)
+        ✔ Discord; @done(24-01-26 20:01)
+        ✔ Slack; @done(24-01-26 20:01)
+        ✔ LinkedIn; @done(24-01-26 20:01)
+        ✔ Medium; @done(24-01-26 20:01)
+        ✔ Instagram; @done(24-01-26 20:01)
+        ✔ Behance; @done(24-01-26 20:01)
+        ✔ Github; @done(24-01-26 20:01)
+        ✔ Twitter; @done(24-01-26 20:01)
+    ✔ Reuse footer home comp; @done(24-01-26 20:01)
 
 Responsivity:
 Translation:
