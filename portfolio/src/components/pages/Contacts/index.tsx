@@ -21,12 +21,17 @@ const Contacts = () => {
       <SecondaryPageTitle title="contacts" description="Wanna reach me?" />
 
       <SecondaryPageSection title="all-media">
-        <div>
-          I'm interested in freelance opportunities. However, if you have other
-          request or question, don't hesitate to contact me
-        </div>
+        <div className="d-flex">
+          <div>
+            <p>I'm open to freelance gigs! </p>
+            <p>
+              But hey, if you've got any other requests or just wanna chat, hit
+              me up anytime.
+            </p>
+          </div>
 
-        <MessageMeCard />
+          <MessageMeCard />
+        </div>
       </SecondaryPageSection>
 
       <Footer />

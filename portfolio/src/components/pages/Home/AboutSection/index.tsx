@@ -6,6 +6,7 @@ import {
 import MainButton from "../../../reusable/MainButton";
 import SectionHeader from "../../../reusable/SectionHeader";
 import AboutMeImage from "../../../../assets/secondImage.svg";
+import JessieAboutMe from "../../../../assets/jessie2.png";
 
 const AboutSection = () => {
   return (
@@ -34,7 +35,7 @@ const AboutSection = () => {
             <MainButton path="/about-me" text={"Read More"} />
           </StyledInnerContentContainer>
           <StyledInnerContentContainer>
-            <img src={AboutMeImage} alt="about-me" width={250} />
+            <img src={JessieAboutMe} alt="about-me" width={400} />
           </StyledInnerContentContainer>
         </StyledContainer>
       </StyledContentSection>

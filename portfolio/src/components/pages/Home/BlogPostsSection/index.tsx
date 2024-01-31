@@ -3,38 +3,21 @@ import { StyledContentSection } from "../../../../styles/ReusableStyles";
 import SectionHeader from "../../../reusable/SectionHeader";
 import GeneralCard from "../../../reusable/GeneralCard";
 import BlogPost from "../../../../assets/BlogPost.png";
+import blogPosts from "../../../../data/blogPosts";
 
 const BlogPostsSection = () => {
   return (
     <StyledContentSection>
       <SectionHeader title="blog-posts" />
       <div className="inner-section">
-        <GeneralCard
-          img={BlogPost}
-          title={"Principios Solid"}
-          description={"Sobre os principios do paradigma de POO"}
-          link={
-            "https://medium.com/@jessie_moura/arnia-english-homework-time-travel-1e6b62b9b64e"
-          }
-        />
-
-        <GeneralCard
-          img={BlogPost}
-          title={"Principios Solid"}
-          description={"Sobre os principios do paradigma de POO"}
-          link={
-            "https://medium.com/@jessie_moura/arnia-english-homework-time-travel-1e6b62b9b64e"
-          }
-        />
-
-        <GeneralCard
-          img={BlogPost}
-          title={"Principios Solid"}
-          description={"Sobre os principios do paradigma de POO"}
-          link={
-            "https://medium.com/@jessie_moura/arnia-english-homework-time-travel-1e6b62b9b64e"
-          }
-        />
+        {blogPosts.map((item) => (
+          <GeneralCard
+            img={item.img}
+            title={item.title}
+            description={item.description}
+            link={item.link}
+          />
+        ))}
       </div>
     </StyledContentSection>
   );

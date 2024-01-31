@@ -4,6 +4,7 @@ import Figma from "../../assets/Figma.svg";
 import Discord from "../../assets/Discord.svg";
 import Logo from "./Logo";
 import LogoImage from "../../assets/Logo.svg";
+import LogoImg from "../../assets/official-logo.png";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="left-side">
             <div className="footer-text">
               <span>
-                <Logo img={LogoImage} />
+                <Logo img={LogoImg} />
               </span>
               <span> jessie.moura19@gmail.com</span>
             </div>

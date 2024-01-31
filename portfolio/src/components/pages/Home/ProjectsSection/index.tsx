@@ -2,39 +2,7 @@ import React from "react";
 import { StyledContentSection } from "../../../../styles/ReusableStyles";
 import SectionHeader from "../../../reusable/SectionHeader";
 import BigProjectCard from "../../../reusable/BigProjectCard";
-import Site from "../../../../assets/site.png";
-
-interface IProjects {
-  img: any;
-  tools: string;
-  name: string;
-  description: string;
-  link: string;
-}
-
-const biggerProjects: Array<IProjects> = [
-  {
-    img: Site,
-    tools: "HTML CSS JavaScript",
-    name: "ChertNodes1",
-    description: "Alô! Lorem Lorem Lorem",
-    link: "https://github.com/LadyJessie19/String-Format-JS-CSharp",
-  },
-  {
-    img: Site,
-    tools: "HTML CSS JavaScript",
-    name: "ChertNodes2",
-    description: "Alô! Lorem Lorem Lorem",
-    link: "https://github.com/LadyJessie19/String-Format-JS-CSharp",
-  },
-  {
-    img: Site,
-    tools: "HTML CSS JavaScript",
-    name: "ChertNodes3",
-    description: "Alô! Lorem Lorem Lorem",
-    link: "https://github.com/LadyJessie19/String-Format-JS-CSharp",
-  },
-];
+import biggerProjects from "../../../../data/biggerProjects";
 
 const ProjectsSection = () => {
   return (

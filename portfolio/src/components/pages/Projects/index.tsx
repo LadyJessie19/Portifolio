@@ -1,6 +1,10 @@
 import React from "react";
 import TinySideBar from "../../reusable/TinySideBar";
-import { StyledHeaderHomePage } from "../../../styles/ReusableStyles";
+import {
+  StyledContainerHomePage,
+  StyledContainerSecondaryPage,
+  StyledHeaderHomePage,
+} from "../../../styles/ReusableStyles";
 import GlobalStyle from "../../../styles/Global";
 import HeaderSection from "../Home/HeaderSection";
 
@@ -8,8 +12,13 @@ import Footer from "../../reusable/Footer";
 import SecondaryPageTitle from "../../reusable/SecondaryPageTitle";
 import SecondaryPageSection from "../../reusable/SecondaryPageSection";
 import BigProjectCard from "../../reusable/BigProjectCard";
-import ProjectImg from "../../../assets/site.png";
 import BlogPostsSection from "../Home/BlogPostsSection";
+import biggerProjects from "../../../data/biggerProjects";
+import designUX from "../../../data/designUX";
+import blogPosts from "../../../data/blogPosts";
+import smallerProjects from "../../../data/smallerProjects";
+import GeneralCard from "../../reusable/GeneralCard";
+import SmallProjectCard from "../../reusable/SmallProjectCard";
 
 const Projects = () => {
   return (
@@ -24,48 +33,68 @@ const Projects = () => {
       <SecondaryPageTitle title="projects" description="List of my projects" />
 
       <SecondaryPageSection title="complete-apps">
-        <div className="d-flex">
-          <BigProjectCard
-            name="Projeto"
-            description="lorem lorem"
-            img={ProjectImg}
-            link="https://www.github.com"
-            tools="tools é uq?"
-            key={1}
-          />
-          <BigProjectCard
-            name="Projeto"
-            description="lorem lorem"
-            img={ProjectImg}
-            link="https://www.github.com"
-            tools="tools é uq?"
-            key={1}
-          />
-          <BigProjectCard
-            name="Projeto"
-            description="lorem lorem"
-            img={ProjectImg}
-            link="https://www.github.com"
-            tools="tools é uq?"
-            key={1}
-          />
-        </div>
-        <div>
-          <p>Hellow!</p>
-        </div>
+        <StyledContainerSecondaryPage>
+          {biggerProjects.map((item) => {
+            return (
+              <BigProjectCard
+                img={item.img}
+                tools={item.tools}
+                name={item.name}
+                description={item.description}
+                link={item.link}
+              />
+            );
+          })}
+        </StyledContainerSecondaryPage>
       </SecondaryPageSection>
 
-      <SecondaryPageSection title="UX Jobs">
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-          cum ut animi error architecto minus vitae quibusdam vero ipsum. Sed
-          ullam esse eius a praesentium dignissimos temporibus dicta, maxime
-          pariatur.
-        </div>
+      <SecondaryPageSection title="smaller-apps">
+        <StyledContainerSecondaryPage>
+          {smallerProjects.map((item) => {
+            return (
+              <SmallProjectCard
+                tools={item.tools}
+                title={item.title}
+                description={item.description}
+                button={item.button}
+                link={item.link}
+              />
+            );
+          })}
+        </StyledContainerSecondaryPage>
+      </SecondaryPageSection>
+
+      <SecondaryPageSection title="design-ux-projects">
+        <StyledContainerSecondaryPage>
+          {designUX.map((item) => {
+            return (
+              <GeneralCard
+                img={item.img}
+                title={item.name}
+                description={item.description}
+                link={item.link}
+                // button={item.button}
+                button="Check it out"
+              />
+            );
+          })}
+        </StyledContainerSecondaryPage>
       </SecondaryPageSection>
 
       <SecondaryPageSection title="blog-posts">
-        <BlogPostsSection />
+        <StyledContainerSecondaryPage>
+          {blogPosts.map((item) => {
+            return (
+              <GeneralCard
+                img={item.img}
+                title={item.title}
+                link={item.link}
+                button="Check it out"
+                description={item.description}
+              />
+            );
+          })}
+        </StyledContainerSecondaryPage>
       </SecondaryPageSection>
 
       <Footer />

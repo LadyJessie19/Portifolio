@@ -1,12 +1,12 @@
 import React from "react";
 import Logo from "../../../reusable/Logo";
 import NavBar from "../../../reusable/NavBar";
-import logo from "../../../../assets/Logo.svg";
+import jessieLogo from "../../../../assets/official-logo.png";
 
 const HeaderSection = () => {
   return (
     <>
-      <Logo img={logo} />
+      <Logo img={jessieLogo} />
       <NavBar />
     </>
   );

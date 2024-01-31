@@ -2,37 +2,23 @@ import React from "react";
 import { StyledContentSection } from "../../../../styles/ReusableStyles";
 import SectionHeader from "../../../reusable/SectionHeader";
 import GeneralCard from "../../../reusable/GeneralCard";
-import GoogleImg from "../../../../assets/Google1.png";
+import certificates from "../../../../data/certificates";
 
 const CertificatesSection = () => {
   return (
     <StyledContentSection>
       <SectionHeader title="certificates" />
       <div className="inner-section">
-        <GeneralCard
-          img={GoogleImg}
-          title={"Fundamentos do Design UX"}
-          description={"Certificação do Google para Designers UX"}
-          link={
-            "https://www.coursera.org/professional-certificates/google-ux-design"
-          }
-        />
-        <GeneralCard
-          img={GoogleImg}
-          title={"Fundamentos do Design UX"}
-          description={"Certificação do Google para Designers UX"}
-          link={
-            "https://www.coursera.org/professional-certificates/google-ux-design"
-          }
-        />
-        <GeneralCard
-          img={GoogleImg}
-          title={"Fundamentos do Design UX"}
-          description={"Certificação do Google para Designers UX"}
-          link={
-            "https://www.coursera.org/professional-certificates/google-ux-design"
-          }
-        />
+        {certificates.map((item) => {
+          return (
+            <GeneralCard
+              img={item.img}
+              title={item.title}
+              description={item.description}
+              link={item.link}
+            />
+          );
+        })}
       </div>
     </StyledContentSection>
   );

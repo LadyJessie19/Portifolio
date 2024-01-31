@@ -35,6 +35,7 @@ export const StyledNavBar = styled.span`
   gap: 1rem;
   color: ${({ theme }) => theme.colors.WhiteScreen};
   padding: 3px 9px;
+  height: 25px;
 
   span {
     color: ${({ theme }) => theme.colors.CherryPink};
@@ -49,7 +50,7 @@ export const StyledQuote = styled.span`
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin-top: 4%;
+  margin-top: 5%;
 
   .inner-quote {
     display: flex;
@@ -124,7 +125,8 @@ export const StyledContentSection = styled.div`
     display: flex;
     justify-content: center;
     gap: 2rem;
-    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
   }
 `;
 
@@ -268,7 +270,9 @@ export const StyledFooter = styled.div`
   .footer-text {
     color: ${({ theme }) => theme.colors.LightGrey};
     display: flex;
+    align-items: center;
     gap: 1rem;
+    font-size: 15px;
   }
 
   img:hover {
@@ -297,6 +301,7 @@ export const StyledMainTextHomePage = styled.div`
   color: ${({ theme }) => theme.colors.WhiteScreen};
 
   h1 {
+    max-width: 80%;
     font-size: 28px;
   }
   span {
@@ -307,6 +312,15 @@ export const StyledMainTextHomePage = styled.div`
 export const StyledContainerHomePage = styled.div`
   width: 80%;
   margin: 2rem auto;
+`;
+
+export const StyledContainerSecondaryPage = styled.div`
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 `;
 
 export const StyledContainer = styled.div`
@@ -345,4 +359,10 @@ export const StyledSecondaryPageSection = styled.div`
   span {
     color: ${({ theme }) => theme.colors.CherryPink};
   }
+`;
+
+export const StyledLabelImage = styled.img`
+  position: absolute;
+  bottom: -70px;
+  right: 160px;
 `;
