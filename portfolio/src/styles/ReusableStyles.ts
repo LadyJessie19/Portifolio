@@ -6,6 +6,7 @@ export const StyledMainButton = styled.button`
   border: 2px solid ${({ theme }) => theme.colors.CherryPink};
   padding: 7px 20px;
   font-size: 16px;
+  font-family: "Fira Code";
   cursor: pointer;
 
   &:hover {
@@ -27,6 +28,10 @@ export const StyledTinySideBar = styled.span`
 
   img:hover {
     background-color: ${({ theme }) => theme.colors.HoverPink};
+  }
+
+  @media screen and (max-width: 600px) {
+    left: 27px;
   }
 `;
 
@@ -79,25 +84,70 @@ export const StyledQuote = styled.span`
     font-weight: 500;
     padding: 0px 30px;
   }
+  @media screen and (max-width: 600px) {
+    width: 80vw;
+    margin: 10vw;
+  }
 `;
 
 export const StyledBigCardProject = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.LightGrey};
   display: flex;
   flex-direction: column;
-  width: 20%;
-  padding: 1rem;
+  width: 300px;
+  max-height: 600px;
+  font-size: 13px;
+  color: ${({ theme }) => theme.colors.WhiteScreen};
+  position: relative;
+  padding-bottom: 70px;
+
+  .photo-row {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .first-row {
+    width: 100%;
+    padding: 5px 0px 5px 2px;
+    border-top: 1px solid ${({ theme }) => theme.colors.LightGrey};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.LightGrey};
+    text-align: center;
+  }
+
+  .second-row {
+    padding: 0.1rem 1rem;
+    font-size: 13px;
+
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 `;
 
 export const StyledSmallCardProject = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.LightGrey};
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 270px;
+  min-height: 300px;
+  font-size: 14px;
   font-family: "Fira Code";
+  position: relative;
 
   .first-row {
     padding: 0.5rem 0.5rem;
+    text-align: center;
     color: ${({ theme }) => theme.colors.LightGrey};
   }
 
@@ -113,7 +163,16 @@ export const StyledSmallCardProject = styled.div`
   }
   .row-two {
     color: ${({ theme }) => theme.colors.LightGrey};
-    margin-bottom: 0.7rem;
+    margin-bottom: 60px;
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 `;
 
@@ -127,6 +186,9 @@ export const StyledContentSection = styled.div`
     gap: 2rem;
     max-width: 100%;
     flex-wrap: wrap;
+  }
+  @media screen and (max-width: 600px) {
+    margin-left: -2rem;
   }
 `;
 
@@ -144,6 +206,9 @@ export const StyledSectionHeader = styled.div`
     display: flex;
     color: ${({ theme }) => theme.colors.WhiteScreen};
     font-size: 26px;
+    p {
+      min-width: 175px;
+    }
   }
   .left-header > img {
     margin-left: 0.5rem;
@@ -159,14 +224,12 @@ export const StyledSectionHeader = styled.div`
 `;
 
 export const StyledSkillsSection = styled.div`
-  display: flex;
-  flex-direction: column;
-
   .skills-row {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     gap: 7rem;
-    /* width: 100%; */
   }
   .right-side {
     display: flex;
@@ -174,6 +237,14 @@ export const StyledSkillsSection = styled.div`
     flex-direction: row-reverse;
     width: 30%;
     gap: 1rem;
+  }
+  .left-side {
+    height: fit-content;
+  }
+  @media screen and (max-width: 600px) {
+    .right-side {
+      width: 90%;
+    }
   }
 `;
 
@@ -192,16 +263,20 @@ export const StyledSkillCard = styled.div`
 
 export const StyledGeneralCard = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.LightGrey};
-  max-width: 20%;
+  width: 300px;
+  position: relative;
 
   .first-row {
     text-align: center;
     padding: 0.3rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
   }
-  .first-row > img {
-    width: 200px;
-  }
+
   .second-row {
+    height: 250px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -212,6 +287,15 @@ export const StyledGeneralCard = styled.div`
   h3 {
     color: ${({ theme }) => theme.colors.WhiteScreen};
     font-weight: 400;
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 `;
 
@@ -254,6 +338,7 @@ export const StyledFooter = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .second-row {
@@ -285,13 +370,17 @@ export const StyledHeaderHomePage = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 `;
 
 export const StyledMainHomePage = styled.div`
   width: 80%;
   margin: 4% auto 0;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const StyledMainTextHomePage = styled.div`
@@ -299,13 +388,21 @@ export const StyledMainTextHomePage = styled.div`
   flex-direction: column;
   gap: 1rem;
   color: ${({ theme }) => theme.colors.WhiteScreen};
-
+  width: 60%;
   h1 {
-    max-width: 80%;
+    max-width: 90%;
     font-size: 28px;
   }
   span {
     color: ${({ theme }) => theme.colors.CherryPink};
+  }
+  p {
+    max-width: 90%;
+  }
+  @media screen and (max-width: 600px) {
+    margin: 0 auto 2rem;
+    align-items: center;
+    text-align: center;
   }
 `;
 
@@ -324,17 +421,24 @@ export const StyledContainerSecondaryPage = styled.div`
 `;
 
 export const StyledContainer = styled.div`
+  width: 90%;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
   padding: 0 10% 1rem;
+  flex-wrap: wrap;
 `;
 
 export const StyledInnerContentContainer = styled.div`
-  width: 50%;
+  width: 40%;
   text-align: center;
   p {
     color: ${({ theme }) => theme.colors.WhiteScreen};
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
   }
 `;
 
@@ -352,8 +456,10 @@ export const StyledSecondaryPageTitle = styled.div`
 `;
 
 export const StyledSecondaryPageSection = styled.div`
-  width: 80%;
+  width: 70%;
   margin: 1rem auto 3rem;
+  display: flex;
+  flex-wrap: wrap;
   color: ${({ theme }) => theme.colors.WhiteScreen};
 
   span {
@@ -361,8 +467,11 @@ export const StyledSecondaryPageSection = styled.div`
   }
 `;
 
-export const StyledLabelImage = styled.img`
+export const StyledMainImgDisplay = styled.div`
+  position: relative;
+`;
+
+export const StyledLabelImage = styled.div`
   position: absolute;
-  bottom: -70px;
-  right: 160px;
+  bottom: -235px;
 `;

@@ -3,8 +3,7 @@ import Github from "../../assets/Github.svg";
 import Figma from "../../assets/Figma.svg";
 import Discord from "../../assets/Discord.svg";
 import Logo from "./Logo";
-import LogoImage from "../../assets/Logo.svg";
-import LogoImg from "../../assets/official-logo.png";
+import LogoImg from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -26,7 +25,7 @@ const Footer = () => {
               <img src={Github} alt="Github" />
             </a>
             <a
-              href="https://www.figma.com/file/VwTA6Nv74MbhBQsJGj7mH6/Portfolio-Jessie?node-id=23%3A623&mode=dev"
+              href="https://www.figma.com/files/user/1164006161769032343?fuid=1164006161769032343"
               target="_blank">
               <img src={Figma} alt="Figma" />
             </a>

@@ -17,7 +17,7 @@ const biggerProjects: Array<IProjects> = [
     tools: "React.js, Typescript",
     name: "Wexer Psi - Frontend",
     description:
-      "This is a frontend project that I built up using React.js and Typescript",
+      "Frontend project developed using React.js and Typescript for Wexer Psi.",
     link: "https://github.com/LadyJessie19/wexerFrontend",
   },
 
@@ -26,7 +26,7 @@ const biggerProjects: Array<IProjects> = [
     tools: "Node.js, Clean Architecture, N-Tier, SOLID",
     name: "Wexer Psi - Backend",
     description:
-      "This is a backend project that was made with node.js framework",
+      "Backend project built with Node.js, following Clean Architecture, N-Tier, and SOLID principles for Wexer Psi.",
     link: "https://github.com/LadyJessie19/wexerBackend",
   },
 
@@ -35,7 +35,7 @@ const biggerProjects: Array<IProjects> = [
     tools: "React.js, Typescript, Vercel, Development Team",
     name: "MetaVagas - Frontend",
     description:
-      "The frontend to a website that is meant to search all the developer vacancies",
+      "Frontend for MetaVagas, a website designed to search developer job vacancies.",
     link: "https://github.com/LadyJessie19/meta_vagas_frontend",
   },
 
@@ -43,7 +43,7 @@ const biggerProjects: Array<IProjects> = [
     img: MetaVagasBack,
     tools: "Nest.js, Typescript, Railway, Development Team",
     name: "MetaVagas - Backend",
-    description: "The backend to MetaVagas application",
+    description: "Backend for the MetaVagas application.",
     link: "https://github.com/LadyJessie19/meta_vagas_backend",
   },
 ];

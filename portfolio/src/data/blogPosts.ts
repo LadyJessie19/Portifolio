@@ -15,7 +15,7 @@ const blogPosts: Array<IBlogPost> = [
     img: TimeTravel,
     title: "Arnia English Homework | Time Travel",
     description:
-      "What would you tell to your yonger self and what would your younger self would reply",
+      "Imagine conversing with your younger self and receiving surprising responses. Read on to discover how this journey through time can unveil unexpected insights.",
     link: "https://medium.com/@jessie_moura/arnia-english-homework-time-travel-1e6b62b9b64e",
   },
 
@@ -23,22 +23,23 @@ const blogPosts: Array<IBlogPost> = [
     img: SOLID,
     title: "SOLID Principles",
     description:
-      "Could we explain better the solid principles by using an lego metafore",
+      "Find out how to explain SOLID principles in a fun and accessible way using a LEGO block metaphor in this engaging article.",
     link: "https://medium.com/@jessie_moura/explorando-os-princ%C3%ADpios-solid-construindo-com-blocos-de-lego-2707b12ae48e",
   },
 
   {
     img: SoftSkills,
-    title: "Soft skills",
+    title: "Soft Skills",
     description:
-      "Could the soft skills be a difference that matters to all the programmers?",
+      "Explore how soft skills can make a difference in a programmer's career and why they are so important, even for beginners. Read on to find out more!",
     link: "https://medium.com/@jessie_moura/os-estagi%C3%A1rios-como-o-filme-mostra-a-import%C3%A2ncia-das-soft-skills-para-os-programadores-iniciantes-d939cbc483dd",
   },
 
   {
     img: FullStackUX,
     title: "UX Design and Web Development",
-    description: "Could UX Design knoloed be a levarege to the fullstack devs?",
+    description:
+      "Discover how UX Design knowledge can be a significant advantage for fullstack developers and how it can drive their skills and projects forward.",
     link: "https://medium.com/@jessie_moura/a-vantagem-do-conhecimento-em-ux-para-desenvolvedores-fullstack-38196b871c75",
   },
 ];

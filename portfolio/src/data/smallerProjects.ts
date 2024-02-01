@@ -9,9 +9,9 @@ interface ISmallerProjects {
 const smallerProjects: Array<ISmallerProjects> = [
   {
     tools: "JavaScript, HTML",
-    title: "I-Common manual",
+    title: "I-Common Manual",
     description:
-      "This was a small software from my first internship company. I didn't take a part at his development, but I created the manual.",
+      "Documentation created for a small software project during my first internship. Although I didn't participate in its development, I authored the manual.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/I-Common_Documentation",
   },
@@ -20,7 +20,7 @@ const smallerProjects: Array<ISmallerProjects> = [
     tools: "JavaScript, HTML, CSS, json-server, Vercel, Railway",
     title: "Arnia Task Manager",
     description:
-      "This was my first project ever at Arnia. It suited more for academic purposes, but it was the first time that i had a web project",
+      "My inaugural project at Arnia, initially designed for academic purposes, marking my introduction to web development.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/Arnia_Task_Manager/tree/main",
   },
@@ -29,15 +29,15 @@ const smallerProjects: Array<ISmallerProjects> = [
     tools: "JavaScript, HTML, DOM",
     title: "ReHT - Responsive Table Generator",
     description:
-      "This is a small programm that generates a table at the screen with the selected rows and columns, and is responsive with the screen",
-    button: "GitHub Respository",
+      "A small program capable of generating responsive tables on-screen based on user-selected rows and columns.",
+    button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/ReHT_Table_Generator",
   },
   {
     tools: "React.js, Typescript",
     title: "Hortifruti - E-Commerce",
     description:
-      "This is a small project for a local grocery store at my neighborhood",
+      "A small-scale e-commerce project developed for a local grocery store in my neighborhood.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/Hortifruti_E-commerce/tree/staging",
   },
@@ -45,14 +45,14 @@ const smallerProjects: Array<ISmallerProjects> = [
     tools: "React.js, Typescript",
     title: "Shopping Cart - E-Commerce",
     description:
-      "This is a small project with the purpose to understand more about React Hooks",
+      "A small project aimed at delving into React Hooks and understanding their functionality.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/Shopping_E-commerce/tree/staging",
   },
   {
     tools: "JavaScript, HTML, C#",
     title: "String Format JS/C#",
-    description: "This is a string formater in JavaScript tha uses C# logic",
+    description: "A string formatter in JavaScript that implements C# logic.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/String-Format-JS-CSharp",
   },

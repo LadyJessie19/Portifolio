@@ -19,9 +19,11 @@ const SectionHeader = ({ title, path }: IProps) => {
             </p>
             <img src={PinkLine} />
           </div>
-          {path && <div className="right-header">
-            <Link to={path}>View All ▶</Link>
-          </div>}
+          {path && (
+            <div className="right-header">
+              <Link to={path}>View All ▶</Link>
+            </div>
+          )}
         </div>
       </StyledSectionHeader>
     </>

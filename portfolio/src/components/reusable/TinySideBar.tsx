@@ -1,7 +1,7 @@
 import LineImg from "../../assets/Line.svg";
 import GithubIcon from "../../assets/Github.svg";
 import LinkedinIcon from "../../assets/Linkedin.svg";
-import MediumIcon from "../../assets/Play.svg";
+import MediumIcon from "../../assets/Medium.svg";
 
 import { StyledTinySideBar } from "../../styles/ReusableStyles";
 

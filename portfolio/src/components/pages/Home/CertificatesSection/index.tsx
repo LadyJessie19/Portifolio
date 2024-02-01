@@ -16,6 +16,7 @@ const CertificatesSection = () => {
               title={item.title}
               description={item.description}
               link={item.link}
+              button={"View here"}
             />
           );
         })}

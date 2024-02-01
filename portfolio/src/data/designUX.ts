@@ -19,52 +19,52 @@ const designUX: Array<IDesignUX> = [
     tools: "Figma, UX Design",
     name: "LeNu App - Lo-Fi Prototype",
     description:
-      "This is my first Lo-Fi prototype using Figma. It was meant to show the LeNu app, a scheduled restaurant service order",
+      "First Lo-Fi prototype created using Figma to showcase the LeNu app, a scheduled restaurant service order system.",
     link: "https://www.figma.com/proto/0PZ2SCNQ2IlAgJDNvAIhcg/LeNu-Wireframes?type=design&node-id=4-8&t=wfESQtGHRsrhD8RU-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A8",
   },
 
   {
     img: Personas,
-    tools: "Google Presentation, Costumer Reviews",
+    tools: "Google Presentation, Customer Reviews",
     name: "Personas",
     description:
-      "Definition and creation about user personas that reflects on who will use the app",
+      "Creation of user personas to reflect the target audience and their needs for the app.",
     link: "https://docs.google.com/presentation/d/1-rBktYJ4MduAXL_ygiJ1ELd8IGhDXepawtZjgFr9CfQ/edit?usp=sharing",
   },
 
   {
     img: CompetitiveAnalysis,
-    tools: "Google Sheets, Competitive research",
+    tools: "Google Sheets, Competitive Research",
     name: "Competitive Audit",
     description:
-      "The research to build LeNu app gathering the similar business goals and methods",
+      "Research conducted to gather data on similar businesses, their goals, and methods to inform the development of the LeNu app.",
     link: "https://docs.google.com/spreadsheets/d/1W685l2nbxf6sNDKDS53l5UfKNHvB-X-eVtp56fYxoYA/edit?usp=sharing",
   },
 
   {
     img: CompetitiveReport,
-    tools: "Google Docs, Competive Audit",
+    tools: "Google Docs, Competitive Audit",
     name: "Competitive Audit Report",
     description:
-      "The report to all the data that was collected at the competitive report",
+      "Report summarizing the data collected during the competitive audit process.",
     link: "https://docs.google.com/document/d/1GFBEzkTFD1z6sqJicBRJx8SZCdAB0b87K3t006ufJ8c/edit?usp=sharing",
   },
 
   {
     img: Storyboard,
-    tools: "Google Presentation, notebook drawning",
+    tools: "Google Presentation, Notebook Drawing",
     name: "Storyboard",
     description:
-      "This presentation was meant to create an user path throught the app",
+      "Presentation outlining the user's path through the app to visualize the user experience.",
     link: "https://docs.google.com/presentation/d/1q36yqejV4-ZYarPLhpnZAJ55rmB65fzfZE6EWQDJ68w/edit?usp=sharing&resourcekey=0-uITU2Uj63UrEhIK6u1xzPw",
   },
 
   {
     img: StoryboardCloseUp,
-    tools: "Google Presentation, notebook drawning",
+    tools: "Google Presentation, Notebook Drawing",
     name: "Storyboard - Close Up",
     description:
-      "This was also meant to create an user path throught the app, but with a more close vision/goal",
+      "Detailed presentation focusing on specific user paths within the app for a closer examination of the user experience.",
     link: "https://docs.google.com/presentation/d/1avCgZYN9fdXuQQ5YUvkGUAqntb0bj3EWfWkuy182lxs/edit?usp=sharing&resourcekey=0-aQAnYTPMgmVEJx-WyJRJIA",
   },
 ];

@@ -14,17 +14,16 @@ const GeneralCard = ({ img, title, description, link, button }: IProps) => {
     <>
       <StyledGeneralCard>
         <div className="first-row">
-          <img src={img} alt="photo" />
+          <img src={img} alt="photo" width={290} />
         </div>
         <div className="second-row">
           <div>
             <h3>{title}</h3>
           </div>
           <div>{description}</div>
-          <div>
-            {" "}
-            <MainButton text={button} link={link} />
-          </div>
+        </div>
+        <div className="button-row">
+          <MainButton text={button} link={link} />
         </div>
       </StyledGeneralCard>
     </>

@@ -23,6 +23,24 @@ const GlobalStyle = createGlobalStyle`
     overflow-y: scroll;
   }
 
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--Background-grey);
+}
+
+::-webkit-scrollbar-thumb {
+  background: ${({ theme }) => theme.colors.CherryPink};
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
   a {
     text-decoration: none;
     color: inherit;
@@ -94,6 +112,11 @@ const GlobalStyle = createGlobalStyle`
 .a-center {
     align-items: center;
 }
+
+.g-1 {
+    gap: 1rem;
+}
+
 `;
 
 export default GlobalStyle;

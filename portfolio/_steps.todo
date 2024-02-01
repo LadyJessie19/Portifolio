@@ -45,14 +45,14 @@ Third - Layout:
         ✔ Comps creation; @done(23-08-18 05:23)
         ✔ 2 Main Comps: PT-BR and EN-US; @done(23-08-18 05:23)
 
-        ☐ Create the info arrays:
-            ☐ Certificates;
-            ☐ Projects;
-            ☐ BlogPosts;
-            ☐ Skills;
+        ✔ Create the info arrays: @done(24-02-01 02:19)
+            ✔ Certificates; @done(24-02-01 02:19)
+            ✔ Projects; @done(24-02-01 02:19)
+            ✔ BlogPosts; @done(24-02-01 02:19)
+            ✔ Skills; @done(24-02-01 02:19)
         
     Pages:
-        ☐ Tip! Use _comps.todo_ file to see the comps path;
+        ✔ Tip! Use _comps.todo_ file to see the comps path; @done(24-02-01 02:37)
         ✔ Home; @done(24-01-26 20:04)
         ✔ Projects; @done(24-01-26 20:04)
             ✔ Programming;(3 Cards); @done(24-01-26 20:04)
@@ -67,54 +67,54 @@ Third - Layout:
 Fourth - Text: 
     ✔ Introduction; @done(23-08-17 07:10)
     ✔ Motivation phrase; @done(23-08-17 07:10)
-    ☐ Projects Programming: 
-        ☐ ReHT;
-        ☐ String formating JS/C#;
-        ☐ PicGram;
-        ☐ Arnia - Task Manager;
-        ☐ Arnia - Wexer Psi Frontend;
-        ☐ Arnia - Wexer Psi Backend;
-        ☐ Smaller projects: 
-            ☐ Grocery Store; 
-            ☐ Shopping Store; 
-            ☐ Kanban Backend;
-            ☐ Kanban Frontend;
-    ☐ Projects UX Design:
-        ☐ One;
-        ☐ Two;
-        ☐ Three;
-    ☐ Skills:
-        ☐ Languages;
-        ☐ Databases;
-        ☐ Tools;
-        ☐ Libs;
-        ☐ Frameworks;
-    ☐ Certificates;
-    ☐ BlogPosts;
-    ☐ About-Me;
-    ☐ My Fun Facts;
-    ☐ Contacts;
+    ✔ Projects Programming: @done(24-02-01 02:19)
+        ✔ ReHT; @done(24-02-01 02:19)
+        ✔ String formating JS/C#; @done(24-02-01 02:20)
+        ✔ PicGram; @done(24-02-01 02:20)
+        ✔ Arnia - Task Manager; @done(24-02-01 02:20)
+        ✔ Arnia - Wexer Psi Frontend; @done(24-02-01 02:20)
+        ✔ Arnia - Wexer Psi Backend; @done(24-02-01 02:20)
+        ✔ Smaller projects: @done(24-02-01 02:20)
+            ✔ Grocery Store; @done(24-02-01 02:20)
+            ✔ Shopping Store; @done(24-02-01 02:20)
+            ✔ Kanban Backend; @done(24-02-01 02:20)
+            ✔ Kanban Frontend; @done(24-02-01 02:20)
+    ✔ Projects UX Design: @done(24-02-01 02:20)
+        ✔ One; @done(24-02-01 02:20)
+        ✔ Two; @done(24-02-01 02:20)
+        ✔ Three; @done(24-02-01 02:20)
+    ✔ Skills: @done(24-02-01 02:20)
+        ✔ Languages; @done(24-02-01 02:20)
+        ✔ Databases; @done(24-02-01 02:20)
+        ✔ Tools; @done(24-02-01 02:20)
+        ✔ Libs; @done(24-02-01 02:20)
+        ✔ Frameworks; @done(24-02-01 02:20)
+    ✔ Certificates; @done(24-02-01 02:20)
+    ✔ BlogPosts; @done(24-02-01 02:20)
+    ✔ About-Me; @done(24-02-01 02:20)
+    ✔ My Fun Facts; @done(24-02-01 02:20)
+    ✔ Contacts; @done(24-02-01 02:20)
 Fifth - Responsivity: 
-    ☐ Mobile Breakpoints;
+    ✔ Mobile Breakpoints; @done(24-02-01 02:20)
 Sixth - Last Features:
     ☐ English/Portuguese;
-    ☐ Test React Routes;
+    ✔ Test React Routes; @done(24-02-01 02:20)
 Seventh - Deploy:
-    ☐ Main Commit - pull request;
-    ☐ Vercel;
-    ☐ Github;
-    ☐ MD Files update;
+    ✔ Main Commit - pull request; @done(24-02-01 02:20)
+    ✔ Vercel; @done(24-02-01 02:20)
+    ✔ Github; @done(24-02-01 02:20)
+    ✔ MD Files update; @done(24-02-01 02:21)
 Eighth - After: 
-    ☐ Switch default photos:
-        ☐ 2 Jessie photos;
-        ☐ Jessie Moura Logo;
-        ☐ Jessie Moura Short Logo;
-    ☐ Matching CV;
-    ☐ Add a *"download CV"* button;
-    ☐ Matching Linktree;
-    ☐ Add section Medium posts;
-        ☐ Bard;
-        ☐ SOLID Principles;
-        ☐ Design UX;
-        ☐ Colors Theory;
-        ☐ Soft Skills;
+    ✔ Switch default photos: @done(24-02-01 02:21)
+        ✔ 2 Jessie photos; @done(24-02-01 02:21)
+        ✔ Jessie Moura Logo; @done(24-02-01 02:21)
+        ✔ Jessie Moura Short Logo; @done(24-02-01 02:21)
+    ✔ Matching CV; @done(24-02-01 02:36)
+    ✔ Add a *"download CV"* button; @done(24-02-01 02:36)
+    ✔ Matching Linktree; @done(24-02-01 02:21)
+    ✔ Add section Medium posts; @done(24-02-01 02:21)
+        ✔ Bard; @done(24-02-01 02:21)
+        ✔ SOLID Principles; @done(24-02-01 02:21)
+        ✔ Design UX; @done(24-02-01 02:21)
+        ✔ Colors Theory; @done(24-02-01 02:21)
+        ✔ Soft Skills; @done(24-02-01 02:21)

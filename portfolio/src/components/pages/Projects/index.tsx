@@ -16,6 +16,7 @@ import BlogPostsSection from "../Home/BlogPostsSection";
 import biggerProjects from "../../../data/biggerProjects";
 import designUX from "../../../data/designUX";
 import blogPosts from "../../../data/blogPosts";
+import javaProjects from "../../../data/javaProjects";
 import smallerProjects from "../../../data/smallerProjects";
 import GeneralCard from "../../reusable/GeneralCard";
 import SmallProjectCard from "../../reusable/SmallProjectCard";
@@ -64,6 +65,22 @@ const Projects = () => {
         </StyledContainerSecondaryPage>
       </SecondaryPageSection>
 
+      <SecondaryPageSection title="java-projects">
+        <StyledContainerSecondaryPage>
+          {javaProjects.map((item) => {
+            return (
+              <BigProjectCard
+                img={item.img}
+                tools={item.tools}
+                name={item.name}
+                description={item.description}
+                link={item.link}
+              />
+            );
+          })}
+        </StyledContainerSecondaryPage>
+      </SecondaryPageSection>
+
       <SecondaryPageSection title="design-ux-projects">
         <StyledContainerSecondaryPage>
           {designUX.map((item) => {
@@ -73,7 +90,6 @@ const Projects = () => {
                 title={item.name}
                 description={item.description}
                 link={item.link}
-                // button={item.button}
                 button="Check it out"
               />
             );

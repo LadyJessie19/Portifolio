@@ -15,38 +15,42 @@ interface ICertificates {
 const certificates: Array<ICertificates> = [
   {
     img: ArniaCertificate,
-    title: "Fullstack developer",
-    description: "The fullstack development certificate from Arnia",
+    title: "Fullstack Developer Certification",
+    description: "Earned the Fullstack Developer certificate from Arnia.",
     link: "https://www.linkedin.com/in/jessiemoura19/details/certifications/1635555790018/single-media-viewer/?type=IMAGE&profileId=ACoAAD6E-xEBIvRRy_KaUTviLPge8Ak7-qFsObU",
   },
   {
     img: JavaSpringBoot,
-    title: "Java | Spring Boot",
-    description: "Java studies at Udemy",
+    title: "Java | Spring Boot Certification",
+    description: "Completed Java studies with a focus on Spring Boot at Udemy.",
     link: "https://www.udemy.com/certificate/UC-ee3de95e-2a36-412b-860c-d94566b64a6d/",
   },
   {
     img: Typescript,
-    title: "Typescript",
-    description: "Typescript and POO studies at Udemy",
+    title: "Typescript Certification",
+    description:
+      "Completed Typescript and Object-Oriented Programming (OOP) studies at Udemy.",
     link: "https://www.udemy.com/certificate/UC-580be9ad-a4ee-4dfc-b047-f378d21dd3eb/",
   },
   {
     img: DesignUXOne,
-    title: "Design UX - Fundamentals",
-    description: "Google UX Certificate 1/7",
+    title: "Design UX - Fundamentals Certification",
+    description:
+      "Achieved Google UX Certificate (1/7) covering UX design fundamentals.",
     link: "https://www.coursera.org/account/accomplishments/verify/6TCCGLQ65RLX",
   },
   {
     img: DesignUXTwo,
-    title: "Design UX - Empathy",
-    description: "Google UX Certificate 2/7",
+    title: "Design UX - Empathy Certification",
+    description:
+      "Earned Google UX Certificate (2/7) focusing on empathy in UX design.",
     link: "https://www.coursera.org/account/accomplishments/verify/B3NGU29HH9KP",
   },
   {
     img: DesignUXThree,
-    title: "Design UX - Wireframes | Lo-Fi Prototypes",
-    description: "Google UX Certificate 3/7",
+    title: "Design UX - Wireframes | Lo-Fi Prototypes Certification",
+    description:
+      "Completed Google UX Certificate (3/7) covering wireframes and lo-fi prototypes.",
     link: "https://www.coursera.org/account/accomplishments/verify/DPMZ5HJJE443",
   },
 ];
