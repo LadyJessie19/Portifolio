@@ -1,5 +1,5 @@
 import Quotes from "../../assets/Quotes.svg";
-import { useLanguage } from "../../context/LanguageProvider";
+import { useLanguage } from "../../contexts/LanguageProvider";
 import { StyledQuote } from "../../styles/ReusableStyles";
 
 const Quote = () => {

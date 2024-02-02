@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledContentSection } from "../../../../../styles/ReusableStyles";
 import SectionHeader from "../../../../reusable/SectionHeader";
 import GeneralCard from "../../../../reusable/GeneralCard";
@@ -13,7 +12,7 @@ const CertificatesSection = () => {
     <StyledContentSection>
       <SectionHeader
         title={HomeData.SectionTitleThree}
-        path={HomeData.pathAbout}
+        path={HomeData.pathSectionAbout}
       />
       <div className="inner-section">
         {currentDisplay.map((item) => {

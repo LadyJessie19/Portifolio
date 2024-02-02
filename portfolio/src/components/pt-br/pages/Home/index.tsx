@@ -15,11 +15,14 @@ import HeaderSection from "./HeaderSection";
 import Footer from "../../../reusable/Footer";
 import AboutSection from "./AboutSection";
 import ContactSection from "./ContactSection";
+import Decorations from "../../../reusable/Decorations";
 
 const HomePt = () => {
   return (
     <>
       <GlobalStyle />
+
+      <Decorations size="large" />
 
       <TinySideBar />
 

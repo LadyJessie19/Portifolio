@@ -4,7 +4,7 @@ import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
 
-import { LanguageProvider } from "./context/LanguageProvider";
+import { LanguageProvider } from "./contexts/LanguageProvider";
 
 import HomeEn from "./components/en-us/pages/Home";
 import ContactsEn from "./components/en-us/pages/Contacts";
@@ -15,6 +15,7 @@ import AboutMePt from "./components/pt-br/pages/AboutMe";
 import ContactsPt from "./components/pt-br/pages/Contacts";
 import ProjectsPt from "./components/pt-br/pages/Projects";
 import { useEffect } from "react";
+import ScrollToTop from "./components/reusable/scrollToTop";
 
 function App() {
   const navigate = useNavigate();
@@ -24,11 +25,17 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  useEffect(() => {
+    if (window.location.pathname === "/") {
+      navigate("/us");
+    }
+  });
   return (
     <>
       <LanguageProvider navigate={navigate}>
         <ThemeProvider theme={theme}>
           <GlobalStyle />
+          <ScrollToTop />
           <Routes>
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />

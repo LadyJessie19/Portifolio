@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledAllMediaComp } from "../../styles/ReusableStyles";
 
 interface IProps {

@@ -1,5 +1,20 @@
-import styled from "styled-components";
-import { theme } from "./theme";
+import styled, { keyframes } from "styled-components";
+import {
+  fadeIn,
+  merge,
+  slideInUp,
+  slideInDown,
+  slideInLeft,
+} from "react-animations";
+
+const slideDownElements = merge(slideInDown, fadeIn);
+const slideFadeElements = merge(slideInUp, fadeIn);
+const slideLeftElements = merge(slideInLeft, fadeIn);
+
+const slideUpAnimation = keyframes`${slideInUp}`;
+const slideDownAnimation = keyframes`${slideDownElements}`;
+const slideFadeAnimation = keyframes`${slideFadeElements}`;
+const slideLeftAnimation = keyframes`${slideLeftElements}`;
 
 export const StyledMainButton = styled.button`
   background-color: ${({ theme }) => theme.colors.BackgroundGrey};
@@ -19,6 +34,7 @@ export const StyledTinySideBar = styled.span`
   position: fixed;
   top: 0px;
   left: 55px;
+  animation: 1s ${slideDownAnimation};
 
   .side-bar-icons {
     position: relative;
@@ -31,8 +47,8 @@ export const StyledTinySideBar = styled.span`
     background-color: ${({ theme }) => theme.colors.HoverPink};
   }
 
-  @media screen and (max-width: 600px) {
-    left: 27px;
+  @media screen and (max-width: 479px) {
+    display: none;
   }
 `;
 
@@ -42,6 +58,7 @@ export const StyledNavBar = styled.span`
   color: ${({ theme }) => theme.colors.WhiteScreen};
   padding: 3px 9px;
   height: 25px;
+  animation: 1s ${slideUpAnimation};
 
   span {
     min-width: fit-content;
@@ -54,6 +71,11 @@ export const StyledNavBar = styled.span`
 
   div:hover {
     background-color: ${({ theme }) => theme.colors.HoverPink};
+  }
+  @media screen and (max-width: 479px) {
+    width: 90%;
+    flex-wrap: wrap;
+    align-content: flex-end;
   }
 `;
 
@@ -90,9 +112,9 @@ export const StyledQuote = styled.span`
     font-weight: 500;
     padding: 0px 30px;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     width: 80vw;
-    margin: 10vw;
+    margin: 15vw 11vw;
   }
 `;
 
@@ -185,6 +207,7 @@ export const StyledSmallCardProject = styled.div`
 export const StyledContentSection = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   .inner-section {
     display: flex;
@@ -193,8 +216,8 @@ export const StyledContentSection = styled.div`
     max-width: 100%;
     flex-wrap: wrap;
   }
-  @media screen and (max-width: 600px) {
-    margin-left: -2rem;
+  @media screen and (max-width: 479px) {
+    /* margin-left: -2rem; */
   }
 `;
 
@@ -239,6 +262,12 @@ export const StyledSectionHeader = styled.div`
     padding-right: 1rem;
     background-color: ${({ theme }) => theme.colors.CherryPink};
   }
+  @media screen and (max-width: 479px) {
+    width: 100%;
+    p {
+      font-size: 20px;
+    }
+  }
 `;
 
 export const StyledSkillsSection = styled.div`
@@ -259,7 +288,7 @@ export const StyledSkillsSection = styled.div`
   .left-side {
     height: fit-content;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     .right-side {
       width: 90%;
     }
@@ -386,6 +415,12 @@ export const StyledFooter = styled.div`
   img:hover {
     background-color: ${({ theme }) => theme.colors.HoverPink};
   }
+  @media screen and (max-width: 479px) {
+    margin-left: -30px;
+    .footer-text {
+      flex-wrap: wrap;
+    }
+  }
 `;
 
 export const StyledHeaderHomePage = styled.div`
@@ -399,6 +434,7 @@ export const StyledHeaderHomePage = styled.div`
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  animation: 1s ${slideFadeAnimation};
 `;
 
 export const StyledMainHomePage = styled.div`
@@ -407,7 +443,7 @@ export const StyledMainHomePage = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     width: 100%;
     margin: 170px auto 0;
   }
@@ -431,7 +467,7 @@ export const StyledMainTextHomePage = styled.div`
   p {
     max-width: 90%;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     margin: 0 auto 2rem;
     align-items: center;
     text-align: center;
@@ -442,6 +478,8 @@ export const StyledMainTextHomePage = styled.div`
 export const StyledContainerHomePage = styled.div`
   width: 80%;
   margin: 2rem auto;
+  @media screen and (max-width: 479px) {
+  }
 `;
 
 export const StyledContainerSecondaryPage = styled.div`
@@ -462,6 +500,10 @@ export const StyledContainer = styled.div`
   gap: 1rem;
   padding: 0 10% 1rem;
   flex-wrap: wrap;
+  @media screen and (max-width: 479px) {
+    width: unset;
+    gap: 2rem;
+  }
 `;
 
 export const StyledInnerContentContainer = styled.div`
@@ -470,8 +512,11 @@ export const StyledInnerContentContainer = styled.div`
   p {
     color: ${({ theme }) => theme.colors.WhiteScreen};
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     width: 100%;
+    .img-jessie {
+      width: 340px;
+    }
   }
 `;
 
@@ -486,7 +531,7 @@ export const StyledSecondaryPageTitle = styled.div`
   h2 {
     font-size: 17px;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     margin: 185px auto 1rem;
   }
 `;
@@ -503,7 +548,7 @@ export const StyledContactMain = styled.div`
     width: 60%;
     color: ${({ theme }) => theme.colors.WhiteScreen};
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     text-align: center;
     margin: 1rem auto;
     flex-wrap: wrap;
@@ -524,10 +569,13 @@ export const StyledSecondaryPageSection = styled.div`
     color: ${({ theme }) => theme.colors.CherryPink};
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     flex-wrap: wrap;
     h1 {
       min-width: fit-content;
+    }
+    .all-media-itens {
+      flex-wrap: wrap;
     }
   }
 `;
@@ -538,14 +586,15 @@ export const StyledAllMediaComp = styled.div`
   &:hover {
     background-color: ${({ theme }) => theme.colors.HoverPink};
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     flex-wrap: wrap;
   }
 `;
 
 export const StyledMainImgDisplay = styled.div`
   position: relative;
-  @media screen and (max-width: 600px) {
+  animation: 1s ${slideLeftAnimation};
+  @media screen and (max-width: 479px) {
     margin: 0 auto;
   }
 `;
@@ -607,10 +656,39 @@ export const StyledLogoComponent = styled.span`
   img {
     width: 210px;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 479px) {
     margin: 0 auto;
+    padding-left: 0;
     img {
       width: 290px;
     }
+  }
+`;
+
+export const StyledImgLeftSide = styled.div`
+  position: absolute;
+  top: 70vh;
+  left: -10px;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  gap: 100vh;
+  overflow-y: auto;
+  @media screen and (max-width: 479px) {
+    display: none;
+  }
+`;
+
+export const StyledImgRightSide = styled.div`
+  position: absolute;
+  top: 70vh;
+  right: -10px;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  gap: 100vh;
+  overflow-y: hidden;
+  @media screen and (max-width: 479px) {
+    display: none;
   }
 `;

@@ -1,13 +1,14 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { StyledSecondaryPageSection } from "../../styles/ReusableStyles";
 
 interface CompProps {
   children: ReactNode;
   title: string;
+  id?: string;
 }
-const SecondaryPageSection = ({ children, title }: CompProps) => {
+const SecondaryPageSection = ({ children, title, id }: CompProps) => {
   return (
-    <StyledSecondaryPageSection>
+    <StyledSecondaryPageSection id={id}>
       <div>
         <h1>
           <span>#</span>

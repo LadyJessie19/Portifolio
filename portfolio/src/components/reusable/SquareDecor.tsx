@@ -1,17 +1,22 @@
-import ImgSmall from "../../assets/SquareSmall.svg"
-import ImgLarge from "../../assets/SquareLarge.svg"
-type ImgType = 'Large' | 'Small'
+import ImgSmall from "../../assets/SquareSmall.svg";
+import ImgLarge from "../../assets/SquareLarge.svg";
+type ImgType = "Large" | "Small";
 
 interface IProps {
-  type: ImgType
+  type: ImgType;
+  translate?: boolean;
 }
 
-const SquareDecor = ({type}:IProps) => {
+const SquareDecor = ({ type, translate }: IProps) => {
   return (
     <>
-      <img src={type === 'Small' ? ImgSmall : ImgLarge} alt="SquareDecor" />
+      <img
+        src={type === "Small" ? ImgSmall : ImgLarge}
+        alt="SquareDecor"
+        style={translate ? { transform: "rotate(180deg)" } : {}}
+      />
     </>
-  )
-}
+  );
+};
 
-export default SquareDecor
+export default SquareDecor;

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import Dropdown from "../../assets/Dropdown.svg";
 import { StyledDropdown } from "../../styles/ReusableStyles";
-import { useLanguage } from "../../context/LanguageProvider";
+import { useLanguage } from "../../contexts/LanguageProvider";
+import { useState } from "react";
 
 const LanguagesDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);

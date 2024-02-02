@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledContentSection } from "../../../../../styles/ReusableStyles";
 import SectionHeader from "../../../../reusable/SectionHeader";
 import BigProjectCard from "../../../../reusable/BigProjectCard";

@@ -1,6 +1,6 @@
 import { StyledSectionHeader } from "../../styles/ReusableStyles";
 import { Link } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageProvider";
+import { useLanguage } from "../../contexts/LanguageProvider";
 
 interface IProps {
   title: string;

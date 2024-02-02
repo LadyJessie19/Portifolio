@@ -1,4 +1,3 @@
-import React from "react";
 import TinySideBar from "../../../reusable/TinySideBar";
 import {
   StyledContainerSecondaryPage,
@@ -21,12 +20,14 @@ import javaProjects from "../../data/javaProjects";
 import smallerProjects from "../../data/smallerProjects";
 
 import projectInfo from "../../data/_projectsData";
+import Decorations from "../../../reusable/Decorations";
 
 const ProjectsPt = () => {
   return (
     <>
       <GlobalStyle />
       <TinySideBar />
+      <Decorations size="big" />
 
       <StyledHeaderHomePage>
         <HeaderSection />
@@ -96,14 +97,16 @@ const ProjectsPt = () => {
                 title={item.name}
                 description={item.description}
                 link={item.link}
-                button="Check it out"
+                button={item.button}
               />
             );
           })}
         </StyledContainerSecondaryPage>
       </SecondaryPageSection>
 
-      <SecondaryPageSection title={projectInfo.pageSectionTitleFive}>
+      <SecondaryPageSection
+        title={projectInfo.pageSectionTitleFive}
+        id={projectInfo.pageSectionTitleFive}>
         <StyledContainerSecondaryPage>
           {blogPosts.map((item) => {
             return (
@@ -111,7 +114,7 @@ const ProjectsPt = () => {
                 img={item.img}
                 title={item.title}
                 link={item.link}
-                button="Check it out"
+                button={item.button}
                 description={item.description}
               />
             );

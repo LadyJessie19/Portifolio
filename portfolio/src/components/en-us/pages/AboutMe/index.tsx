@@ -1,4 +1,3 @@
-import React from "react";
 import GlobalStyle from "../../../../styles/Global";
 import TinySideBar from "../../../reusable/TinySideBar";
 import HeaderSection from "../Home/HeaderSection";
@@ -19,12 +18,14 @@ import skills from "../../data/skills";
 import certificates from "../../data/certificates";
 
 import aboutInfo from "../../data/_aboutData";
+import Decorations from "../../../reusable/Decorations";
 
 const AboutMeEn = () => {
   return (
     <>
       <GlobalStyle />
       <TinySideBar />
+      <Decorations size="medium" />
 
       <StyledHeaderHomePage>
         <HeaderSection />
@@ -52,7 +53,9 @@ const AboutMeEn = () => {
         </StyledContainerSecondaryPage>
       </SecondaryPageSection>
 
-      <SecondaryPageSection title={aboutInfo.pageSectionTitleThree}>
+      <SecondaryPageSection
+        title={aboutInfo.pageSectionTitleThree}
+        id={aboutInfo.pageSectionTitleThree}>
         <StyledContainerSecondaryPage>
           {certificates.map((item) => (
             <GeneralCard

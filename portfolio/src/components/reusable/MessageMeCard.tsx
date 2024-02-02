@@ -2,7 +2,7 @@ import { StyledMessageMeCard } from "../../styles/ReusableStyles";
 import Discord from "../../assets/Discord.svg";
 import Email from "../../assets/Email.svg";
 import Linkedin from "../../assets/Linkedin.svg";
-import { useLanguage } from "../../context/LanguageProvider";
+import { useLanguage } from "../../contexts/LanguageProvider";
 
 const MessageMeCard = () => {
   const { language } = useLanguage() || { language: "EN-US" };

@@ -1,4 +1,3 @@
-import React from "react";
 import GlobalStyle from "../../../../styles/Global";
 import TinySideBar from "../../../reusable/TinySideBar";
 import {
@@ -13,12 +12,14 @@ import MessageMeCard from "../../../reusable/MessageMeCard";
 
 import contactInfo from "../../data/_contactData";
 import AllMediaComp from "../../../reusable/AllMediaComp";
+import Decorations from "../../../reusable/Decorations";
 
 const ContactsPt = () => {
   return (
     <>
       <GlobalStyle />
       <TinySideBar />
+      <Decorations size="small" />
 
       <StyledHeaderHomePage>
         <HeaderSection />
@@ -40,7 +41,7 @@ const ContactsPt = () => {
       </StyledContactMain>
 
       <SecondaryPageSection title={contactInfo.pageSectionTitleOne}>
-        <div className="d-flex">
+        <div className="d-flex all-media-itens">
           {contactInfo.allMedias.map((item) => (
             <AllMediaComp link={item.link} icon={item.icon} name={item.name} />
           ))}

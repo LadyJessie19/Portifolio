@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { StyledNavBar } from "../../styles/ReusableStyles";
 import LanguagesDropdown from "./LanguagesDropdown";
-import { useLanguage } from "../../context/LanguageProvider";
+import { useLanguage } from "../../contexts/LanguageProvider";
 
 const NavBar = () => {
   const { language } = useLanguage() || { language: "EN-US" };

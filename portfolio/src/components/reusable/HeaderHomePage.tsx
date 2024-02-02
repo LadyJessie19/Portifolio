@@ -1,6 +1,5 @@
-import React from "react";
 import { StyledHeaderElement } from "../../styles/ReusableStyles";
-import { useLanguage } from "../../context/LanguageProvider";
+import { useLanguage } from "../../contexts/LanguageProvider";
 
 const HeaderHomePage = () => {
   const { language } = useLanguage() || { language: "EN-US" };

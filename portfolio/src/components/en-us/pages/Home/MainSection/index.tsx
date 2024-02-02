@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledMainTextHomePage } from "../../../../../styles/ReusableStyles";
 import MainImg from "../../../../reusable/MainImg";
 import MainButton from "../../../../reusable/MainButton";

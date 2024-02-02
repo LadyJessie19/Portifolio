@@ -5,6 +5,7 @@ interface IHome {
   downloadCV: string;
   SectionTitleOne: string;
   pathProjects: string;
+  pathSectionProjects: string;
   SectionTitleTwo: string;
   SectionTitleThree: string;
   SectionTitleFour: string;
@@ -14,6 +15,7 @@ interface IHome {
   aboutMeThree: string;
   aboutMeFour: string;
   pathAbout: string;
+  pathSectionAbout: string;
   buttonAboutText: string;
   SectionTitleSix: string;
   contactMeOne: string;
@@ -28,9 +30,10 @@ const HomeData: IHome = {
   downloadCV: "Baixar CV",
   SectionTitleOne: "projetos",
   pathProjects: "/br/projetos",
+  pathSectionProjects: "/br/projetos/#artigos-de-blog",
   SectionTitleTwo: "habilidades",
   SectionTitleThree: "certificados",
-  SectionTitleFour: "artigos-de-blog",
+  SectionTitleFour: "artigos",
   SectionTitleFive: "sobre-mim",
   aboutMeOne: "Oi!👋 Você pode me chamar de Jessie!",
   aboutMeTwo:
@@ -40,6 +43,7 @@ const HomeData: IHome = {
   aboutMeFour:
     "Estou ansiosa para continuar aprendendo e colaborando com a comunidade de programação. Espero contribuir com meu conhecimento e habilidades enquanto continuo minha jornada neste campo emocionante da tecnologia.",
   pathAbout: "/br/sobre-mim",
+  pathSectionAbout: "/br/sobre-mim/#certificados",
   buttonAboutText: "Leia Mais",
   SectionTitleSix: "contato",
   contactMeOne: "Estou aberta a trabalhos freelance!",

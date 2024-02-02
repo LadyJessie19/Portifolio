@@ -26,7 +26,12 @@ const AboutSection = () => {
             />
           </StyledInnerContentContainer>
           <StyledInnerContentContainer>
-            <img src={JessieAboutMe} alt="about-me" width={400} />
+            <img
+              src={JessieAboutMe}
+              alt="about-me"
+              width={400}
+              className="img-jessie"
+            />
           </StyledInnerContentContainer>
         </StyledContainer>
       </StyledContentSection>
