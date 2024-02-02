@@ -1,6 +1,6 @@
 import { StyledSectionHeader } from "../../styles/ReusableStyles";
-import PinkLine from "../../assets/PinkLine.svg";
 import { Link } from "react-router-dom";
+import { useLanguage } from "../../context/LanguageProvider";
 
 interface IProps {
   title: string;
@@ -8,6 +8,7 @@ interface IProps {
 }
 
 const SectionHeader = ({ title, path }: IProps) => {
+  const { language } = useLanguage() || { language: "EN-US" };
   return (
     <>
       <StyledSectionHeader>
@@ -17,11 +18,14 @@ const SectionHeader = ({ title, path }: IProps) => {
               <span>#</span>
               {title}
             </p>
-            <img src={PinkLine} />
+            <div className="pink-line">&nbsp;</div>
           </div>
           {path && (
             <div className="right-header">
-              <Link to={path}>View All ▶</Link>
+              <Link to={path}>
+                {" "}
+                {language === "EN-US" ? "View All" : "Ver tudo"} ▶
+              </Link>
             </div>
           )}
         </div>

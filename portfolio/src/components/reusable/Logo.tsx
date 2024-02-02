@@ -3,16 +3,17 @@ interface IProps {
 }
 
 import { Link } from "react-router-dom";
+import { StyledLogoComponent } from "../../styles/ReusableStyles";
 
 const Logo = ({ img }: IProps) => {
   return (
     <>
-      <span>
-        <Link to="/">
+      <StyledLogoComponent>
+        <Link to="/us">
           {" "}
-          <img width={210} src={img} alt="logo" />{" "}
+          <img src={img} alt="logo" />{" "}
         </Link>
-      </span>
+      </StyledLogoComponent>
     </>
   );
 };

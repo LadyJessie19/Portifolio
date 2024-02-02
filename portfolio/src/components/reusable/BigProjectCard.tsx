@@ -7,9 +7,17 @@ interface IProps {
   name: string;
   description: string;
   link: string;
+  button: string;
 }
 
-const BigProjectCard = ({ img, tools, name, description, link }: IProps) => {
+const BigProjectCard = ({
+  img,
+  tools,
+  name,
+  description,
+  link,
+  button,
+}: IProps) => {
   return (
     <>
       <StyledBigCardProject>
@@ -26,7 +34,7 @@ const BigProjectCard = ({ img, tools, name, description, link }: IProps) => {
           </div>
         </div>
         <div className="button-row">
-          <MainButton text="Repository" link={link} />
+          <MainButton text={button} link={link} />
         </div>
       </StyledBigCardProject>
     </>

@@ -2,13 +2,19 @@ import { StyledMessageMeCard } from "../../styles/ReusableStyles";
 import Discord from "../../assets/Discord.svg";
 import Email from "../../assets/Email.svg";
 import Linkedin from "../../assets/Linkedin.svg";
+import { useLanguage } from "../../context/LanguageProvider";
 
 const MessageMeCard = () => {
+  const { language } = useLanguage() || { language: "EN-US" };
   return (
     <>
       <StyledMessageMeCard>
         <div>
-          <h3>Message me here!</h3>
+          {language === "EN-US" ? (
+            <h3>Message me here!</h3>
+          ) : (
+            <h3>Entre em contato!</h3>
+          )}
         </div>
         <div>
           <div className="row">

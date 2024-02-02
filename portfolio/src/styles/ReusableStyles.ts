@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "./theme";
 
 export const StyledMainButton = styled.button`
   background-color: ${({ theme }) => theme.colors.BackgroundGrey};
@@ -43,7 +44,12 @@ export const StyledNavBar = styled.span`
   height: 25px;
 
   span {
+    min-width: fit-content;
     color: ${({ theme }) => theme.colors.CherryPink};
+  }
+
+  div {
+    max-width: fit-content;
   }
 
   div:hover {
@@ -194,20 +200,26 @@ export const StyledContentSection = styled.div`
 
 export const StyledSectionHeader = styled.div`
   display: flex;
-  margin: 1rem 14%;
+  margin: 0.5rem auto;
+  width: 90%;
+  max-width: 80vw;
 
   .inner-header {
-    max-width: 99vw;
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
   }
   .left-header {
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: ${({ theme }) => theme.colors.WhiteScreen};
     font-size: 26px;
     p {
-      min-width: 175px;
+      min-width: fit-content;
+      padding: 0.5rem 1rem;
     }
   }
   .left-header > img {
@@ -218,8 +230,14 @@ export const StyledSectionHeader = styled.div`
   }
   .right-header {
     display: flex;
-    width: 8vw;
+    min-width: fit-content;
     color: ${({ theme }) => theme.colors.WhiteScreen};
+  }
+  .pink-line {
+    width: 100%;
+    height: 1px;
+    padding-right: 1rem;
+    background-color: ${({ theme }) => theme.colors.CherryPink};
   }
 `;
 
@@ -301,11 +319,16 @@ export const StyledGeneralCard = styled.div`
 
 export const StyledMessageMeCard = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.LightGrey};
-  width: 66%;
+  width: 300px;
   padding: 0.5rem;
-  margin: 0 20% 10%;
+  margin: 0 auto 3rem;
+
+  div {
+    width: 100%;
+  }
 
   h3 {
+    width: 100%;
     color: ${({ theme }) => theme.colors.WhiteScreen};
   }
   .row {
@@ -366,8 +389,11 @@ export const StyledFooter = styled.div`
 `;
 
 export const StyledHeaderHomePage = styled.div`
-  width: 80%;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: ${({ theme }) => theme.colors.BackgroundGrey};
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -377,11 +403,17 @@ export const StyledHeaderHomePage = styled.div`
 
 export const StyledMainHomePage = styled.div`
   width: 80%;
-  margin: 4% auto 0;
+  margin: 150px auto 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    margin: 170px auto 0;
+  }
 `;
+
+export const StyledHeaderElement = styled.h1``;
 
 export const StyledMainTextHomePage = styled.div`
   display: flex;
@@ -403,6 +435,7 @@ export const StyledMainTextHomePage = styled.div`
     margin: 0 auto 2rem;
     align-items: center;
     text-align: center;
+    width: 89%;
   }
 `;
 
@@ -444,7 +477,7 @@ export const StyledInnerContentContainer = styled.div`
 
 export const StyledSecondaryPageTitle = styled.div`
   width: 80%;
-  margin: 4rem auto;
+  margin: 120px auto 1rem;
   color: ${({ theme }) => theme.colors.WhiteScreen};
 
   span {
@@ -453,25 +486,131 @@ export const StyledSecondaryPageTitle = styled.div`
   h2 {
     font-size: 17px;
   }
+  @media screen and (max-width: 600px) {
+    margin: 185px auto 1rem;
+  }
+`;
+
+export const StyledContactMain = styled.div`
+  width: 80%;
+  margin: 1rem auto 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  p {
+    width: 60%;
+    color: ${({ theme }) => theme.colors.WhiteScreen};
+  }
+  @media screen and (max-width: 600px) {
+    text-align: center;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+
+    p {
+      width: 100%;
+    }
+  }
 `;
 
 export const StyledSecondaryPageSection = styled.div`
   width: 70%;
   margin: 1rem auto 3rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   color: ${({ theme }) => theme.colors.WhiteScreen};
-
   span {
     color: ${({ theme }) => theme.colors.CherryPink};
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-wrap: wrap;
+    h1 {
+      min-width: fit-content;
+    }
+  }
+`;
+
+export const StyledAllMediaComp = styled.div`
+  width: fit-content;
+  padding: 6px 18px;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.HoverPink};
+  }
+  @media screen and (max-width: 600px) {
+    flex-wrap: wrap;
   }
 `;
 
 export const StyledMainImgDisplay = styled.div`
   position: relative;
+  @media screen and (max-width: 600px) {
+    margin: 0 auto;
+  }
 `;
 
 export const StyledLabelImage = styled.div`
   position: absolute;
   bottom: -235px;
+`;
+
+export const StyledDropdown = styled.div`
+  position: relative;
+  width: 80px;
+
+  .dropdown-toggle:hover {
+    cursor: pointer;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    right: 1%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: ${({ theme }) => theme.colors.BackgroundGrey};
+  }
+
+  li {
+    color: ${({ theme }) => theme.colors.CandyGreen};
+    list-style: none;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 0.1rem;
+    width: 90%;
+  }
+
+  li:hover {
+    background-color: ${({ theme }) => theme.colors.HoverPink};
+  }
+`;
+
+export const StyledItemsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const StyledListItem = styled.div`
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0 0.5rem 1rem;
+  width: fit-content;
+  border: 1px solid ${({ theme }) => theme.colors.WhiteScreen};
+`;
+
+export const StyledLogoComponent = styled.span`
+  cursor: pointer;
+  padding-left: 10px;
+  img {
+    width: 210px;
+  }
+  @media screen and (max-width: 600px) {
+    margin: 0 auto;
+    img {
+      width: 290px;
+    }
+  }
 `;
