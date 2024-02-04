@@ -11,7 +11,7 @@ const HeaderHomePage = () => {
   ) : (
     <StyledHeaderElement>
       Jessica é uma <span> Desenvolvedora Fullstack </span> e{" "}
-      <span>Designer UX</span>
+      <span>UX Designer</span>
     </StyledHeaderElement>
   );
 };
