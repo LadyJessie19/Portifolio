@@ -31,7 +31,7 @@ const AboutMeData: IAbout = {
     "Meu prato preferido é pizza (com muita pimenta).",
     "Me considero uma desensevolvedora/escritora.",
     "Sonho em visitar a Coreia do Sul.",
-    "Um dos meus hobbits favoritos é jogar videogames.",
+    "Um dos meus hobbies favoritos é jogar videogames.",
     "Consigo dizer 'eu te amo' em 7 linguagens diferentes.",
     "Sou apaixonada por música.",
   ],
