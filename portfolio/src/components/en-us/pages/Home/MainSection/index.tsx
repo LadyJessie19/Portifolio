@@ -1,7 +1,7 @@
 import { StyledMainTextHomePage } from "../../../../../styles/ReusableStyles";
 import MainImg from "../../../../reusable/MainImg";
 import MainButton from "../../../../reusable/MainButton";
-import cv from "../../../../../assets/cv/cv-jessie-bentes-en-us";
+import cv from "../../../../../assets/cv/cv-jessie-bentes-en-us.pdf";
 
 import HomeInfo from "../../../data/_homeData";
 import HeaderHomePage from "../../../../reusable/HeaderHomePage";
