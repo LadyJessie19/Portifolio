@@ -1,12 +1,6 @@
 import GlobalStyle from "./styles/Global";
 import "./styles/Font.css";
-import {
-  Route,
-  Routes,
-  useNavigate,
-  useLocation,
-  Navigate,
-} from "react-router-dom";
+import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
 
