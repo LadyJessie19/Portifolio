@@ -49,8 +49,9 @@ function App() {
           <GlobalStyle />
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<RedirectToDefaultLanguage />} />
+            {/* <Route path="/" element={<RedirectToDefaultLanguage />} /> */}
 
+            <Route path="/" element={<HomeEn />} />
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />
             <Route path="/us/contacts" element={<ContactsEn />} />
