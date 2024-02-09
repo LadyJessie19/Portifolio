@@ -216,8 +216,7 @@ export const StyledContentSection = styled.div`
     max-width: 100%;
     flex-wrap: wrap;
   }
-  @media screen and (max-width: 479px) {
-    /* margin-left: -2rem; */
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
   }
 `;
 
@@ -447,6 +446,13 @@ export const StyledMainHomePage = styled.div`
     width: 100%;
     margin: 170px auto 0;
   }
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    .flex-wrap {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  }
 `;
 
 export const StyledHeaderElement = styled.h1``;
@@ -472,6 +478,11 @@ export const StyledMainTextHomePage = styled.div`
     align-items: center;
     text-align: center;
     width: 89%;
+  }
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    width: 100%;
+    margin-bottom: 2rem;
+    align-items: center;
   }
 `;
 
@@ -517,6 +528,10 @@ export const StyledInnerContentContainer = styled.div`
     .img-jessie {
       width: 340px;
     }
+  }
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    width: 100%;
+    margin-bottom: 2rem;
   }
 `;
 
@@ -574,6 +589,11 @@ export const StyledSecondaryPageSection = styled.div`
     h1 {
       min-width: fit-content;
     }
+    .all-media-itens {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
     .all-media-itens {
       flex-wrap: wrap;
     }
