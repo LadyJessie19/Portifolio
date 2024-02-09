@@ -24,41 +24,11 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  useEffect(() => {
-    if (window.location.pathname === "/") {
-      navigate("/us");
-    }
-    if (window.location.pathname === "*") {
-      navigate("/us");
-    }
-  });
-
-  useEffect(() => {
-    if (window.location.pathname === "/us") {
-      navigate("/us");
-    }
-    if (window.location.pathname === "/us/about-me") {
-      navigate("/us/about-me");
-    }
-    if (window.location.pathname === "/us/contacts") {
-      navigate("/us/contacts");
-    }
-    if (window.location.pathname === "/us/projects") {
-      navigate("/us/projects");
-    }
-    if (window.location.pathname === "/br") {
-      navigate("/br");
-    }
-    if (window.location.pathname === "/br/sobre-mim") {
-      navigate("/br/sobre-mim");
-    }
-    if (window.location.pathname === "/br/contatos") {
-      navigate("/br/contatos");
-    }
-    if (window.location.pathname === "/br/projetos") {
-      navigate("/br/projetos");
-    }
-  }, [pathname]);
+  // useEffect(() => {
+  //   if (window.location.pathname === "/") {
+  //     navigate("/us");
+  //   }
+  // });n
 
   return (
     <>
@@ -67,7 +37,7 @@ function App() {
           <GlobalStyle />
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<HomeEn />} />
+            {/* <Route path="/" element={<HomeEn />} /> */}
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />
             <Route path="/us/contacts" element={<ContactsEn />} />
