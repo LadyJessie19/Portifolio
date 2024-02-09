@@ -24,12 +24,6 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  // useEffect(() => {
-  //   if (window.location.pathname === "/") {
-  //     navigate("/us");
-  //   }
-  // });n
-
   return (
     <>
       <LanguageProvider navigate={navigate}>
@@ -37,7 +31,7 @@ function App() {
           <GlobalStyle />
           <ScrollToTop />
           <Routes>
-            {/* <Route path="/" element={<HomeEn />} /> */}
+            <Route path="/" element={<HomeEn />} />
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />
             <Route path="/us/contacts" element={<ContactsEn />} />
@@ -46,7 +40,6 @@ function App() {
             <Route path="/br/sobre-mim" element={<AboutMePt />} />
             <Route path="/br/contatos" element={<ContactsPt />} />
             <Route path="/br/projetos" element={<ProjectsPt />} />
-            <Route path="*" element={<HomeEn />} />
           </Routes>
         </ThemeProvider>
       </LanguageProvider>
