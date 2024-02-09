@@ -16,8 +16,9 @@ const BlogPostsSection = () => {
         path={HomeData.pathSectionProjects}
       />
       <div className="inner-section">
-        {currentDisplay.map((item) => (
+        {currentDisplay.map((item, index) => (
           <GeneralCard
+            key={index}
             img={item.img}
             title={item.title}
             description={item.description}

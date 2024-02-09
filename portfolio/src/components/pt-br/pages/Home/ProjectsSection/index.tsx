@@ -15,9 +15,10 @@ const ProjectsSection = () => {
         path={HomeData.pathProjects}
       />
       <div className="inner-section">
-        {currentDisplay.map((item) => {
+        {currentDisplay.map((item, index) => {
           return (
             <BigProjectCard
+              key={index}
               img={item.img}
               tools={item.tools}
               name={item.name}

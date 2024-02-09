@@ -40,9 +40,10 @@ const ProjectsPt = () => {
 
       <SecondaryPageSection title={projectInfo.pageSectionTitleOne}>
         <StyledContainerSecondaryPage>
-          {biggerProjects.map((item) => {
+          {biggerProjects.map((item, index) => {
             return (
               <BigProjectCard
+                key={index}
                 img={item.img}
                 tools={item.tools}
                 name={item.name}
@@ -57,9 +58,10 @@ const ProjectsPt = () => {
 
       <SecondaryPageSection title={projectInfo.pageSectionTitleTwo}>
         <StyledContainerSecondaryPage>
-          {smallerProjects.map((item) => {
+          {smallerProjects.map((item, index) => {
             return (
               <SmallProjectCard
+                key={index}
                 tools={item.tools}
                 title={item.title}
                 description={item.description}
@@ -73,9 +75,10 @@ const ProjectsPt = () => {
 
       <SecondaryPageSection title={projectInfo.pageSectionTitleThree}>
         <StyledContainerSecondaryPage>
-          {javaProjects.map((item) => {
+          {javaProjects.map((item, index) => {
             return (
               <BigProjectCard
+                key={index}
                 img={item.img}
                 tools={item.tools}
                 name={item.name}
@@ -90,9 +93,10 @@ const ProjectsPt = () => {
 
       <SecondaryPageSection title={projectInfo.pageSectionTitleFour}>
         <StyledContainerSecondaryPage>
-          {designUX.map((item) => {
+          {designUX.map((item, index) => {
             return (
               <GeneralCard
+                key={index}
                 img={item.img}
                 title={item.name}
                 description={item.description}
@@ -108,9 +112,10 @@ const ProjectsPt = () => {
         title={projectInfo.pageSectionTitleFive}
         id={projectInfo.pageSectionTitleFive}>
         <StyledContainerSecondaryPage>
-          {blogPosts.map((item) => {
+          {blogPosts.map((item, index) => {
             return (
               <GeneralCard
+                key={index}
                 img={item.img}
                 title={item.title}
                 link={item.link}

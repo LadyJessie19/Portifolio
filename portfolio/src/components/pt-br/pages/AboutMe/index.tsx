@@ -47,8 +47,12 @@ const AboutMePt = () => {
 
       <SecondaryPageSection title={aboutInfo.pageSectionTitleTwo}>
         <StyledContainerSecondaryPage>
-          {skills.map((item) => (
-            <SkillCard category={item.category} tools={item.tools} />
+          {skills.map((item, index) => (
+            <SkillCard
+              key={index}
+              category={item.category}
+              tools={item.tools}
+            />
           ))}
         </StyledContainerSecondaryPage>
       </SecondaryPageSection>
@@ -57,8 +61,9 @@ const AboutMePt = () => {
         title={aboutInfo.pageSectionTitleThree}
         id={aboutInfo.pageSectionTitleThree}>
         <StyledContainerSecondaryPage>
-          {certificates.map((item) => (
+          {certificates.map((item, index) => (
             <GeneralCard
+              key={index}
               img={item.img}
               title={item.title}
               description={item.description}
@@ -71,8 +76,8 @@ const AboutMePt = () => {
 
       <SecondaryPageSection title={aboutInfo.pageSectionTitleFour}>
         <StyledItemsContainer>
-          {aboutInfo.funFacts.map((item) => (
-            <StyledListItem>{item}</StyledListItem>
+          {aboutInfo.funFacts.map((item, index) => (
+            <StyledListItem key={index}>{item}</StyledListItem>
           ))}
         </StyledItemsContainer>
       </SecondaryPageSection>

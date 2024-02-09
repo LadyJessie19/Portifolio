@@ -18,8 +18,14 @@ const SkillsSection = () => {
             <img src={Figures} alt="figures" />
           </div>
           <div className="right-side">
-            {skills.map((item) => {
-              return <SkillCard category={item.category} tools={item.tools} />;
+            {skills.map((item, index) => {
+              return (
+                <SkillCard
+                  key={index}
+                  category={item.category}
+                  tools={item.tools}
+                />
+              );
             })}
           </div>
         </div>

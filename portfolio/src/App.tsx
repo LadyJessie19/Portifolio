@@ -1,5 +1,4 @@
 import GlobalStyle from "./styles/Global";
-import "./styles/Font.css";
 import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
@@ -47,6 +46,7 @@ function App() {
             <Route path="/br/sobre-mim" element={<AboutMePt />} />
             <Route path="/br/contatos" element={<ContactsPt />} />
             <Route path="/br/projetos" element={<ProjectsPt />} />
+            <Route path="*" element={<HomePt />} />
           </Routes>
         </ThemeProvider>
       </LanguageProvider>

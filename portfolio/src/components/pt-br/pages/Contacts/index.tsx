@@ -42,8 +42,13 @@ const ContactsPt = () => {
 
       <SecondaryPageSection title={contactInfo.pageSectionTitleOne}>
         <div className="d-flex all-media-itens">
-          {contactInfo.allMedias.map((item) => (
-            <AllMediaComp link={item.link} icon={item.icon} name={item.name} />
+          {contactInfo.allMedias.map((item, index) => (
+            <AllMediaComp
+              key={index}
+              link={item.link}
+              icon={item.icon}
+              name={item.name}
+            />
           ))}
         </div>
       </SecondaryPageSection>

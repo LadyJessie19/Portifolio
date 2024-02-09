@@ -15,9 +15,10 @@ const CertificatesSection = () => {
         path={HomeData.pathSectionAbout}
       />
       <div className="inner-section">
-        {currentDisplay.map((item) => {
+        {currentDisplay.map((item, index) => {
           return (
             <GeneralCard
+              key={index}
               img={item.img}
               title={item.title}
               description={item.description}
