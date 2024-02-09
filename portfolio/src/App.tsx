@@ -1,6 +1,12 @@
 import GlobalStyle from "./styles/Global";
 import "./styles/Font.css";
-import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
+import {
+  Route,
+  Routes,
+  useNavigate,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/theme";
 
@@ -25,11 +31,11 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  useEffect(() => {
-    if (window.location.pathname === "/") {
-      navigate("/us");
-    }
-  });
+  // useEffect(() => {
+  //   if (window.location.pathname === "/") {
+  //     navigate("/us");
+  //   }
+  // });
   return (
     <>
       <LanguageProvider navigate={navigate}>
@@ -37,6 +43,8 @@ function App() {
           <GlobalStyle />
           <ScrollToTop />
           <Routes>
+            <Route path="/" element={<Navigate to="/us" />} />
+
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />
             <Route path="/us/contacts" element={<ContactsEn />} />
