@@ -37,11 +37,6 @@ function App() {
   //   }
   // });
 
-  function RedirectToDefaultLanguage() {
-    const defaultLanguage = "us";
-
-    return <Navigate to={`/${defaultLanguage}`} />;
-  }
   return (
     <>
       <LanguageProvider navigate={navigate}>
@@ -49,8 +44,6 @@ function App() {
           <GlobalStyle />
           <ScrollToTop />
           <Routes>
-            {/* <Route path="/" element={<RedirectToDefaultLanguage />} /> */}
-
             <Route path="/" element={<HomeEn />} />
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />
