@@ -473,7 +473,13 @@ export const StyledMainTextHomePage = styled.div`
   p {
     max-width: 90%;
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 390px) {
+    margin: 0 0 2rem;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+  }
+  @media screen and (min-width: 391px) and (max-width: 479px) {
     margin: 0 auto 2rem;
     align-items: center;
     text-align: center;
@@ -614,7 +620,16 @@ export const StyledAllMediaComp = styled.div`
 export const StyledMainImgDisplay = styled.div`
   position: relative;
   animation: 1s ${slideLeftAnimation};
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 390px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    img {
+      width: 360px;
+    }
+  }
+  @media screen and (min-width: 391px) and (max-width: 479px) {
     margin: 0 auto;
   }
 `;
@@ -668,6 +683,11 @@ export const StyledListItem = styled.div`
   margin: 0 0.5rem 1rem;
   width: fit-content;
   border: 1px solid ${({ theme }) => theme.colors.WhiteScreen};
+  @media screen and (max-width: 479px) {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
 `;
 
 export const StyledLogoComponent = styled.span`
@@ -710,5 +730,11 @@ export const StyledImgRightSide = styled.div`
   overflow-y: hidden;
   @media screen and (max-width: 479px) {
     display: none;
+  }
+`;
+
+export const StyledContentDivision = styled.div`
+  @media screen and (max-width: 479px) {
+    width: 100%;
   }
 `;

@@ -1,5 +1,8 @@
 import { ReactNode } from "react";
-import { StyledSecondaryPageSection } from "../../styles/ReusableStyles";
+import {
+  StyledContentDivision,
+  StyledSecondaryPageSection,
+} from "../../styles/ReusableStyles";
 
 interface CompProps {
   children: ReactNode;
@@ -16,7 +19,7 @@ const SecondaryPageSection = ({ children, title, id }: CompProps) => {
         </h1>
       </div>
 
-      <div>{children}</div>
+      <StyledContentDivision>{children}</StyledContentDivision>
     </StyledSecondaryPageSection>
   );
 };
