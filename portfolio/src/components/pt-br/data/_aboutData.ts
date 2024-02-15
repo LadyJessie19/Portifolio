@@ -20,7 +20,7 @@ const AboutMeData: IAbout = {
   pageSectionTitleThree: "certificados",
   pageSectionTitleFour: "meus-fatos-divertidos",
   jessieBentesOne:
-    "Olá! Eu sou Jéssica Bentes, uma desenvolvedora fullstack dedicada, residente em Campo Grande. Minha jornada na tecnologia começou com experiências diversas, incluindo produção gráfica e escrita, antes de eu encontrar minha verdadeira paixão na programação.",
+    "Olá! Eu sou Jéssica Bentes, uma criativa desenvolvedora fullstack, residente em Campo Grande. Minha jornada na tecnologia começou com experiências diversas, incluindo produção gráfica e escrita, antes de eu encontrar minha verdadeira paixão na programação.",
   jessieBentesTwo:
     "Na Satelier, mergulhei profundamente no JavaScript. Trabalhando como monitora, me especializei em React.js, TypeScript e Node.js. Essa experiência alimentou minha paixão por resolver problemas e colaborar com a comunidade no mundo da tecnologia.",
   jessieBentesThree:
