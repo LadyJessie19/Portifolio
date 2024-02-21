@@ -30,7 +30,7 @@ const Footer = () => {
                 style={{
                   cursor: "pointer",
                   textDecoration: "solid",
-                  color: "#98C379",
+                  color: "#62AEEF",
                 }}>
                 figma-link
               </a>

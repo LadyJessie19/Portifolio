@@ -84,6 +84,7 @@ export const StyledQuote = styled.span`
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  position: relative;
 
   .inner-quote {
     display: flex;
@@ -95,15 +96,15 @@ export const StyledQuote = styled.span`
     background-color: ${({ theme }) => theme.colors.BackgroundGrey};
     padding: 7px;
     position: absolute;
-    right: 8px;
-    top: 55px;
+    left: 8px;
+    top: -1rem;
   }
   .end-quote {
     background-color: ${({ theme }) => theme.colors.BackgroundGrey};
     padding: 7px;
     position: absolute;
-    left: 8px;
-    top: -15px;
+    right: 8px;
+    bottom: -1rem;
   }
   .phrase-quote {
     border: 1px solid ${({ theme }) => theme.colors.LightGrey};
@@ -111,6 +112,10 @@ export const StyledQuote = styled.span`
     font-size: 21px;
     font-weight: 500;
     padding: 0px 30px;
+    position: relative;
+  }
+  .behind-quote {
+    z-index: -2;
   }
   @media screen and (max-width: 479px) {
     width: 80vw;

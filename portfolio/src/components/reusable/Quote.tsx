@@ -8,16 +8,16 @@ const Quote = () => {
     <>
       <StyledQuote>
         <div className="inner-quote">
-          <img className="begin-quote" src={Quotes} alt="quotes" />
           <div className="phrase-quote">
+            <img className="begin-quote" src={Quotes} alt="quotes" />
             {language === "EN-US" ? (
               <p>The best way to predict the future is to create it.</p>
             ) : (
               <p> A melhor maneira de prever o futuro é criando-o.</p>
             )}
+            <img className="end-quote" src={Quotes} alt="quotes" />
           </div>
-          <img className="end-quote" src={Quotes} alt="quotes" />
-          <div className="phrase-quote">
+          <div className="phrase-quote behind-quote">
             <p>- Abraham Lincoln</p>
           </div>
         </div>
