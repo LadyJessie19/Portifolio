@@ -22,7 +22,7 @@ const AboutMeData: IAbout = {
   jessieBentesOne:
     "Hey! I'm Jéssica Bentes, a dedicated fullstack developer residing in Campo Grande. My journey into tech began with diverse experiences, including graphic producer and writer, before I found my true passion in coding.",
   jessieBentesTwo:
-    "At Satelier, I delved deep into JavaScript. Working as a monitor, I specialized in React.js, TypeScript, and Node.js. This experience fueled my passion for problem-solving and community collaboration in the tech sphere.",
+    "In summary, I have worked on a patient management system using React.js, Node.js, MongoDB, and Mongoose. I participated in a job application platform for programming positions using Nest.js, TypeORM, and PostgreSQL, which was my first team experience. I developed a contact platform for doctors and hospitals using Spring Boot and AWS. I created a food ranking system using Spring Boot, MongoDB, Swagger, and Railway for deployment. I worked on a service management system for an event company using Spring Boot, MySQL, and AWS, utilizing development and staging environments, as well as Cognito for authentication.",
   jessieBentesThree:
     "Driven by a desire to contribute meaningfully to the field, I've dedicated myself to mastering various programming languages and frameworks. I'm deeply inspired by the potential of technology to create positive change and enhance lives.",
   jessieBentesFour:

@@ -22,7 +22,7 @@ const AboutMeData: IAbout = {
   jessieBentesOne:
     "Olá! Eu sou Jéssica Bentes, uma criativa desenvolvedora fullstack, residente em Campo Grande. Minha jornada na tecnologia começou com experiências diversas, incluindo produção gráfica e escrita, antes de eu encontrar minha verdadeira paixão na programação.",
   jessieBentesTwo:
-    "Na Satelier, mergulhei profundamente no JavaScript. Trabalhando como monitora, me especializei em React.js, TypeScript e Node.js. Essa experiência alimentou minha paixão por resolver problemas e colaborar com a comunidade no mundo da tecnologia.",
+    "Em resumo, já trabalhei em um gerenciador de pacientes usando React.js, Node.js, MongoDB e Mongoose. Participei de uma aplicação de vagas de programação com Nest.js, TypeORM e PostgreSQL, minha primeira experiência em equipe. Desenvolvi uma plataforma de contato para médicos e hospitais com Spring Boot e AWS. Criei um sistema de ranking de comidas usando Spring Boot, MongoDB, Swagger e Railway para deploy. Trabalhei em um gerenciador de atendimentos para uma empresa de eventos com Spring Boot, MySQL e AWS, utilizando instâncias de desenvolvimento e homologação, além do Cognito para autenticação.",
   jessieBentesThree:
     "Impulsionada pelo desejo de contribuir de forma significativa para o campo, me dediquei a dominar várias linguagens e frameworks de programação. Sou profundamente inspirada pelo potencial da tecnologia em criar mudanças positivas e melhorar vidas.",
   jessieBentesFour:

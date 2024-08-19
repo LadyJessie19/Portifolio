@@ -97,7 +97,7 @@ Fourth - Text:
 Fifth - Responsivity: 
     ✔ Mobile Breakpoints; @done(24-02-01 02:20)
 Sixth - Last Features:
-    ☐ English/Portuguese;
+    ✔ English/Portuguese; @done(24-02-01 18:19)
     ✔ Test React Routes; @done(24-02-01 02:20)
 Seventh - Deploy:
     ✔ Main Commit - pull request; @done(24-02-01 02:20)
