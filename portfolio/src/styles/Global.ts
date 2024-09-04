@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: var(--Main-font), sans-serif;
+    font-family: var(--Main-font), georgia, sans-serif;
     background-color: var(--Background-grey);
     overflow-x: hidden;
     overflow-y: scroll;
@@ -39,18 +39,21 @@ const GlobalStyle = createGlobalStyle`
   background: #555;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+.b-red{
+  border: 1px solid red;
+}
 
-  .c-darkGrey{
-    color: var(--Background-grey)
+.c-darkGrey{
+  color: var(--Background-grey)
 }
 
 .c-pink{
-    color: var(--Cherry-pink);
+  color: var(--Cherry-pink);
 }
 
 .c-lightGrey{
@@ -114,6 +117,10 @@ const GlobalStyle = createGlobalStyle`
 
 .g-1 {
     gap: 1rem;
+}
+
+.g-2 {
+  gap: 2rem;
 }
 
 `;

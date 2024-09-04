@@ -6,7 +6,7 @@ import MediumIcon from "../../assets/Medium.svg";
 import { StyledTinySideBar } from "../../styles/ReusableStyles";
 
 const github = "https://github.com/LadyJessie19";
-const linkedin = "https://www.linkedin.com/in/jessiemoura19/";
+const linkedin = "https://www.linkedin.com/in/jessiemoura/";
 const medium = "https://medium.com/@jessie_moura";
 
 const TinySideBar = () => {

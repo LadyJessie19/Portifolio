@@ -15,16 +15,6 @@ const smallerProjects: Array<ISmallerProjects> = [
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/I-Common_Documentation",
   },
-
-  {
-    tools: "JavaScript, HTML, CSS, json-server, Vercel, Railway",
-    title: "Arnia Task Manager",
-    description:
-      "My inaugural project at Arnia, initially designed for academic purposes, marking my introduction to web development.",
-    button: "GitHub Repository",
-    link: "https://github.com/LadyJessie19/Arnia_Task_Manager/tree/main",
-  },
-
   {
     tools: "JavaScript, HTML, DOM",
     title: "ReHT - Responsive Table Generator",
@@ -34,27 +24,44 @@ const smallerProjects: Array<ISmallerProjects> = [
     link: "https://github.com/LadyJessie19/ReHT_Table_Generator",
   },
   {
-    tools: "React.js, Typescript",
-    title: "Hortifruti - E-Commerce",
-    description:
-      "A small-scale e-commerce project developed for a local grocery store in my neighborhood.",
-    button: "GitHub Repository",
-    link: "https://github.com/LadyJessie19/Hortifruti_E-commerce/tree/staging",
-  },
-  {
-    tools: "React.js, Typescript",
-    title: "Shopping Cart - E-Commerce",
-    description:
-      "A small project aimed at delving into React Hooks and understanding their functionality.",
-    button: "GitHub Repository",
-    link: "https://github.com/LadyJessie19/Shopping_E-commerce/tree/staging",
-  },
-  {
     tools: "JavaScript, HTML, C#",
     title: "String Format JS/C#",
     description: "A string formatter in JavaScript that implements C# logic.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/String-Format-JS-CSharp",
+  },
+  {
+    tools:
+      "React.js, Typescript, React Hooks, React Router Dom, Styled Components",
+    title: "Arnia Monitorship - React.js",
+    description:
+      "React.js tutoring for students at Arnia, a programming school.",
+    button: "GitHub Repository",
+    link: "https://github.com/LadyJessie19/MonitorshipReactJS",
+  },
+  {
+    tools: "Node.js, Typescript, MongoDB, SOLID, TDD, Jest, Vitest",
+    title: "Arnia Monitorship - Node.js",
+    description:
+      "Node.js tutoring for students at Arnia, a programming school.",
+    button: "GitHub Repository",
+    link: "https://github.com/LadyJessie19/MonitorshipNodeJS",
+  },
+  {
+    tools: "Java, OOP",
+    title: "Classes - Java",
+    description: "Java classes to introduce the language to Arnia's students.",
+    button: "GitHub Repository",
+    link: "https://github.com/LadyJessie19/JavaArnia",
+  },
+  {
+    tools:
+      "React.js, Typescript, Components, Props, State, React Hooks, React Router Dom, Styled Components",
+    title: "Classes - React.js",
+    description:
+      "Classes on the React.js library for beginners in advanced frontend development.",
+    button: "GitHub Repository",
+    link: "https://github.com/LadyJessie19/ReactArnia",
   },
 ];
 

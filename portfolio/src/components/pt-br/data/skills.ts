@@ -4,14 +4,14 @@ interface ISkills {
 }
 
 const skills: Array<ISkills> = [
-  { category: "Linguagens", tools: "JavaScript Typescript Java SQL" },
+  { category: "Linguagens", tools: "JavaScript Typescript Java SQL C Python" },
   { category: "Bibliotecas", tools: "React.js Bootstrap jQuery" },
   { category: "Frameworks", tools: "Spring Boot Nest.js Express.js Node.js" },
   {
     category: "Ferramentas",
     tools: "Git Jira Trello VSCode Postman Insomnia Figma Beekeeper DBeaver",
   },
-  { category: "Banco de Dados", tools: "MongoDB PostgreSQL MySQL " },
+  { category: "Banco de Dados", tools: "MongoDB PostgreSQL MySQL" },
   { category: "Testes", tools: "Jest" },
 ];
 

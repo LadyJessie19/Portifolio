@@ -19,16 +19,16 @@ const MessageMeCard = () => {
         <div>
           <div className="row">
             <img src={Linkedin} alt="Linkedin" />
-            <a
-              href="https://www.linkedin.com/in/jessiemoura19/"
-              target="_blank">
+            <a href="https://www.linkedin.com/in/jessiemoura/" target="_blank">
               <span>Jessie M. Bentes</span>
             </a>
           </div>
           <div className="row">
             <img src={Discord} alt="Discord" />
-            <a href="https://discord.com/channels/@me" target="_blank">
-              <span>LadyJessie#1442</span>
+            <a
+              href="https://discord.com/channels/@me?nickname=ladyjessie"
+              target="_blank">
+              <span>ladyjessie</span>
             </a>
           </div>
           <div className="row">

@@ -21,113 +21,116 @@ import smallerProjects from "../../data/smallerProjects";
 
 import projectInfo from "../../data/_projectsData";
 import Decorations from "../../../reusable/Decorations";
+import PageContentAlignSecondary from "../../../reusable/PageContentAlignSecondary";
 
 const ProjectsEn = () => {
   return (
     <>
       <GlobalStyle />
       <TinySideBar />
-      <Decorations size="big" />
+      <Decorations size="medium" />
 
       <StyledHeaderHomePage>
         <HeaderSection />
       </StyledHeaderHomePage>
 
-      <SecondaryPageTitle
-        title={projectInfo.pageTitle}
-        description={projectInfo.pageDescription}
-      />
+      <PageContentAlignSecondary>
+        <SecondaryPageTitle
+          title={projectInfo.pageTitle}
+          description={projectInfo.pageDescription}
+        />
 
-      <SecondaryPageSection title={projectInfo.pageSectionTitleOne}>
-        <StyledContainerSecondaryPage>
-          {biggerProjects.map((item, index) => {
-            return (
-              <BigProjectCard
-                key={index}
-                img={item.img}
-                tools={item.tools}
-                name={item.name}
-                description={item.description}
-                link={item.link}
-                button={item.button}
-              />
-            );
-          })}
-        </StyledContainerSecondaryPage>
-      </SecondaryPageSection>
+        <SecondaryPageSection title={projectInfo.pageSectionTitleOne}>
+          <StyledContainerSecondaryPage>
+            {biggerProjects.map((item, index) => {
+              return (
+                <BigProjectCard
+                  key={index}
+                  img={item.img}
+                  tools={item.tools}
+                  name={item.name}
+                  description={item.description}
+                  link={item.link}
+                  button={item.button}
+                />
+              );
+            })}
+          </StyledContainerSecondaryPage>
+        </SecondaryPageSection>
 
-      <SecondaryPageSection title={projectInfo.pageSectionTitleTwo}>
-        <StyledContainerSecondaryPage>
-          {smallerProjects.map((item, index) => {
-            return (
-              <SmallProjectCard
-                key={index}
-                tools={item.tools}
-                title={item.title}
-                description={item.description}
-                button={item.button}
-                link={item.link}
-              />
-            );
-          })}
-        </StyledContainerSecondaryPage>
-      </SecondaryPageSection>
+        <SecondaryPageSection title={projectInfo.pageSectionTitleTwo}>
+          <StyledContainerSecondaryPage>
+            {smallerProjects.map((item, index) => {
+              return (
+                <SmallProjectCard
+                  key={index}
+                  tools={item.tools}
+                  title={item.title}
+                  description={item.description}
+                  button={item.button}
+                  link={item.link}
+                />
+              );
+            })}
+          </StyledContainerSecondaryPage>
+        </SecondaryPageSection>
 
-      <SecondaryPageSection title={projectInfo.pageSectionTitleThree}>
-        <StyledContainerSecondaryPage>
-          {javaProjects.map((item, index) => {
-            return (
-              <BigProjectCard
-                key={index}
-                img={item.img}
-                tools={item.tools}
-                name={item.name}
-                description={item.description}
-                link={item.link}
-                button={item.button}
-              />
-            );
-          })}
-        </StyledContainerSecondaryPage>
-      </SecondaryPageSection>
+        <SecondaryPageSection title={projectInfo.pageSectionTitleThree}>
+          <StyledContainerSecondaryPage>
+            {javaProjects.map((item, index) => {
+              return (
+                <BigProjectCard
+                  key={index}
+                  img={item.img}
+                  tools={item.tools}
+                  name={item.name}
+                  description={item.description}
+                  link={item.link}
+                  button={item.button}
+                />
+              );
+            })}
+          </StyledContainerSecondaryPage>
+        </SecondaryPageSection>
 
-      <SecondaryPageSection title={projectInfo.pageSectionTitleFour}>
-        <StyledContainerSecondaryPage>
-          {designUX.map((item, index) => {
-            return (
-              <GeneralCard
-                key={index}
-                img={item.img}
-                title={item.name}
-                description={item.description}
-                link={item.link}
-                button={item.button}
-              />
-            );
-          })}
-        </StyledContainerSecondaryPage>
-      </SecondaryPageSection>
+        <SecondaryPageSection title={projectInfo.pageSectionTitleFour}>
+          <StyledContainerSecondaryPage>
+            {designUX.map((item, index) => {
+              return (
+                <GeneralCard
+                  key={index}
+                  img={item.img}
+                  title={item.name}
+                  description={item.description}
+                  link={item.link}
+                  button={item.button}
+                />
+              );
+            })}
+          </StyledContainerSecondaryPage>
+        </SecondaryPageSection>
 
-      <SecondaryPageSection
-        title={projectInfo.pageSectionTitleFive}
-        id={projectInfo.pageSectionTitleFive}>
-        <StyledContainerSecondaryPage>
-          {blogPosts.map((item, index) => {
-            return (
-              <GeneralCard
-                key={index}
-                img={item.img}
-                title={item.title}
-                link={item.link}
-                button={item.button}
-                description={item.description}
-              />
-            );
-          })}
-        </StyledContainerSecondaryPage>
-      </SecondaryPageSection>
+        <SecondaryPageSection
+          title={projectInfo.pageSectionTitleFive}
+          id={projectInfo.pageSectionTitleFive}>
+          <StyledContainerSecondaryPage>
+            {blogPosts.map((item, index) => {
+              return (
+                <GeneralCard
+                  key={index}
+                  img={item.img}
+                  title={item.title}
+                  link={item.link}
+                  button={item.button}
+                  description={item.description}
+                />
+              );
+            })}
+          </StyledContainerSecondaryPage>
+        </SecondaryPageSection>
 
-      <Footer />
+        <Footer />
+      </PageContentAlignSecondary>
     </>
   );
 };

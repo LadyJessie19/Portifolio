@@ -16,51 +16,52 @@ import Footer from "../../../reusable/Footer";
 import AboutSection from "./AboutSection";
 import ContactSection from "./ContactSection";
 import Decorations from "../../../reusable/Decorations";
+import PageContentAlign from "../../../reusable/PageContentAlign";
 
 const HomePt = () => {
   return (
     <>
       <GlobalStyle />
-
-      <Decorations size="large" />
-
+      <Decorations size="medium" />
       <TinySideBar />
 
-      <StyledHeaderHomePage>
-        <HeaderSection />
-      </StyledHeaderHomePage>
+      <PageContentAlign>
+        <StyledHeaderHomePage>
+          <HeaderSection />
+        </StyledHeaderHomePage>
 
-      <StyledMainHomePage>
-        <MainSection />
-      </StyledMainHomePage>
+        <StyledMainHomePage>
+          <MainSection />
+        </StyledMainHomePage>
 
-      <Quote />
+        <Quote />
 
-      <StyledContainerHomePage>
-        <ProjectsSection />
-      </StyledContainerHomePage>
+        <StyledContainerHomePage>
+          <ProjectsSection />
+        </StyledContainerHomePage>
 
-      <StyledContainerHomePage>
-        <SkillsSection />
-      </StyledContainerHomePage>
+        <StyledContainerHomePage>
+          <SkillsSection />
+        </StyledContainerHomePage>
 
-      <StyledContainerHomePage>
-        <CertificatesSection />
-      </StyledContainerHomePage>
+        <StyledContainerHomePage>
+          <CertificatesSection />
+        </StyledContainerHomePage>
 
-      <StyledContainerHomePage>
-        <BlogPostsSection />
-      </StyledContainerHomePage>
+        <StyledContainerHomePage>
+          <BlogPostsSection />
+        </StyledContainerHomePage>
 
-      <StyledContainerHomePage>
-        <AboutSection />
-      </StyledContainerHomePage>
+        <StyledContainerHomePage>
+          <AboutSection />
+        </StyledContainerHomePage>
 
-      <StyledContainerHomePage>
-        <ContactSection />
-      </StyledContainerHomePage>
+        <StyledContainerHomePage>
+          <ContactSection />
+        </StyledContainerHomePage>
 
-      <Footer />
+        <Footer />
+      </PageContentAlign>
     </>
   );
 };

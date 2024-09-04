@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <StyledFooter>
         <div className="first-row">
-          <div className="left-side">
+          <div className="left-side d-flex g-2">
             <div className="footer-text">
               <span>
                 <Logo img={LogoImg} />
@@ -21,7 +21,6 @@ const Footer = () => {
             <small>I would love to thanks the Figma onwer.</small>
 
             <small>
-              {" "}
               Thanks, Elias! You rock!{" "}
               <a
                 href="https://www.figma.com/file/VwTA6Nv74MbhBQsJGj7mH6/Portfolio-Jessie?type=design&node-id=52-1856&mode=design&t=s55H0YmginItHZ6Q-0"
@@ -51,7 +50,7 @@ const Footer = () => {
               <img src={Figma} alt="Figma" />
             </a>
             <a
-              href="https://discord.com/channels/@me/"
+              href="https://discord.com/channels/@me?nickname=ladyjessie"
               target="_blank"
               rel="noreferrer noopener">
               <img src={Discord} alt="Discord" />

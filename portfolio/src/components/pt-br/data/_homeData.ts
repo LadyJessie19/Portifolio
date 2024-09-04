@@ -39,7 +39,7 @@ const HomeData: IHome = {
   aboutMeTwo:
     "Sou desenvolvedora Fullstack, originalmente do Rio de Janeiro, agora morando em Campo Grande, MS. Comecei na programação em 2022 e trabalho principalmente com JavaScript, Java e SQL. Meu foco é em aplicativos da web e experiência do usuário.",
   aboutMeThree:
-    "Fluente em inglês, pratico código limpo e tenho experiência com GIT. Além disso, trabalho como monitora em uma escola de programação. Estou animada para continuar crescendo e contribuindo no campo!",
+    "Fluente em inglês, pratico código limpo e tenho experiência com GIT. Além disso, trabalho como profesora em uma escola de programação. Estou animada para continuar crescendo e contribuindo no campo!",
   aboutMeFour:
     "Estou ansiosa para continuar aprendendo e colaborando com a comunidade de programação. Espero contribuir com meu conhecimento e habilidades enquanto continuo minha jornada neste campo emocionante da tecnologia.",
   pathAbout: "/br/sobre-mim",

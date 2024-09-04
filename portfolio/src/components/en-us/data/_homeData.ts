@@ -42,7 +42,7 @@ const HomeData: IHome = {
   aboutMeTwo:
     "I'm a Fullstack developer originally from Rio de Janeiro, now based in Campo Grande, MS. I started in 2022 and mainly work with JavaScript, Java, and SQL. My focus is on web applications and user experience.",
   aboutMeThree:
-    "Fluent in English, I practice clean code and have experience with GIT. Additionally, I work as a monitor at a programming school. I'm excited to continue growing and contributing in the field!",
+    "Fluent in English, I practice clean code and have experience with GIT. Additionally, I work as a instructor at a programming school. I'm excited to continue growing and contributing in the field!",
   aboutMeFour:
     "I'm eager to keep learning and collaborating with the programming community. I hope to contribute my knowledge and skills as I continue my journey in this exciting field of technology.",
   SectionTitleSix: "contact",

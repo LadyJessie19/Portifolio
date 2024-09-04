@@ -24,6 +24,7 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  const chosenLanguage = localStorage.getItem("language") || "EN-US";
   return (
     <>
       <LanguageProvider navigate={navigate}>
@@ -31,7 +32,10 @@ function App() {
           <GlobalStyle />
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<HomeEn />} />
+            <Route
+              path="/"
+              element={chosenLanguage === "EN-US" ? <HomeEn /> : <HomePt />}
+            />
             <Route path="/us" element={<HomeEn />} />
             <Route path="/us/about-me" element={<AboutMeEn />} />
             <Route path="/us/contacts" element={<ContactsEn />} />

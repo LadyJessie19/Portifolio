@@ -1,4 +1,7 @@
-import { StyledMainTextHomePage } from "../../../../../styles/ReusableStyles";
+import {
+  StyledMainSection,
+  StyledMainTextHomePage,
+} from "../../../../../styles/ReusableStyles";
 import MainImg from "../../../../reusable/MainImg";
 import MainButton from "../../../../reusable/MainButton";
 import cv from "../../../../../assets/cv/cv-jessie-bentes-en-us.pdf";
@@ -9,7 +12,7 @@ import HeaderHomePage from "../../../../reusable/HeaderHomePage";
 const MainSection = () => {
   return (
     <>
-      <div className="flex-wrap">
+      <StyledMainSection>
         <StyledMainTextHomePage>
           <HeaderHomePage />
           <p>{HomeInfo.introduction}</p>
@@ -26,7 +29,7 @@ const MainSection = () => {
           </div>
         </StyledMainTextHomePage>
         <MainImg />
-      </div>
+      </StyledMainSection>
     </>
   );
 };

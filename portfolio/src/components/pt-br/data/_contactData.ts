@@ -23,18 +23,13 @@ const ContactMeData: IContact = {
   allMedias: [
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/jessiemoura19/",
+      link: "https://www.linkedin.com/in/jessiemoura/",
       icon: "fa-brands fa-linkedin",
     },
     {
       name: "GitHub",
       link: "https://github.com/LadyJessie19",
       icon: "fa-brands fa-github",
-    },
-    {
-      name: "Whatsapp",
-      link: "https://api.whatsapp.com/send?phone=5521999877516",
-      icon: "fa-brands fa-whatsapp",
     },
     {
       name: "Medium",

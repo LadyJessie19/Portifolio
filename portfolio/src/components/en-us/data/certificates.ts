@@ -18,7 +18,7 @@ const certificates: Array<ICertificates> = [
     img: ArniaCertificate,
     title: "Fullstack Developer Certification",
     description: "Earned the Fullstack Developer certificate from Arnia.",
-    link: "https://www.linkedin.com/in/jessiemoura19/details/certifications/1635555790018/single-media-viewer/?type=IMAGE&profileId=ACoAAD6E-xEBIvRRy_KaUTviLPge8Ak7-qFsObU",
+    link: "https://www.linkedin.com/in/jessiemoura/details/certifications/1635555790018/single-media-viewer/?type=IMAGE&profileId=ACoAAD6E-xEBIvRRy_KaUTviLPge8Ak7-qFsObU",
     button: "View here",
   },
   {

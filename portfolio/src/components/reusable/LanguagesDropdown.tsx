@@ -14,7 +14,7 @@ const LanguagesDropdown = () => {
     },
   ];
   const { language, changeLanguage } = useLanguage() || {
-    language: "EN-US",
+    language: localStorage.getItem("language") || "EN-US",
     changeLanguage: () => {},
   };
 

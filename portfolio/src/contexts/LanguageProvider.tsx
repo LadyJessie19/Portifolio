@@ -15,8 +15,11 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 );
 
 export const LanguageProvider = ({ children, navigate }: ILanguageContext) => {
-  const [language, setLanguage] = useState("EN-US");
+  const languageSelected = localStorage.getItem("language") || "EN-US";
+  const [language, setLanguage] = useState(languageSelected);
+
   const changeLanguage = (newLanguage: string, newPath: string) => {
+    localStorage.setItem("language", newLanguage);
     navigate(newPath);
     setLanguage(newLanguage);
   };

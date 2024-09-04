@@ -47,18 +47,27 @@ export const StyledTinySideBar = styled.span`
     background-color: ${({ theme }) => theme.colors.HoverPink};
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 850px) {
     display: none;
   }
+`;
+
+export const StyledNavBarFillSize = styled.div`
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding-bottom: 4vh;
+  background-color: ${({ theme }) => theme.colors.BackgroundGrey};
 `;
 
 export const StyledNavBar = styled.span`
   display: flex;
   gap: 1rem;
   color: ${({ theme }) => theme.colors.WhiteScreen};
-  padding: 3px 9px;
-  height: 25px;
+  padding: 1rem;
+  height: 10vh;
   animation: 1s ${slideUpAnimation};
+  align-items: center;
 
   span {
     min-width: fit-content;
@@ -72,20 +81,21 @@ export const StyledNavBar = styled.span`
   div:hover {
     background-color: ${({ theme }) => theme.colors.HoverPink};
   }
-  @media screen and (max-width: 479px) {
-    width: 90%;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    font-size: 1.2rem;
     flex-wrap: wrap;
-    align-content: flex-end;
+    align-content: center;
+    justify-content: center;
   }
 `;
 
 export const StyledQuote = styled.span`
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
   position: relative;
-
+  margin: 10vw auto 0;
   .inner-quote {
     display: flex;
     position: relative;
@@ -113,13 +123,13 @@ export const StyledQuote = styled.span`
     font-weight: 500;
     padding: 0px 30px;
     position: relative;
+    text-align: center;
   }
   .behind-quote {
     z-index: -2;
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 850px) {
     width: 80vw;
-    margin: 15vw 11vw;
   }
 `;
 
@@ -292,9 +302,9 @@ export const StyledSkillsSection = styled.div`
   .left-side {
     height: fit-content;
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 860px) {
     .right-side {
-      width: 90%;
+      width: 110%;
     }
   }
 `;
@@ -331,7 +341,7 @@ export const StyledGeneralCard = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem 2rem;
     border-top: 1px solid ${({ theme }) => theme.colors.LightGrey};
     color: ${({ theme }) => theme.colors.LightGrey};
   }
@@ -414,6 +424,7 @@ export const StyledFooter = styled.div`
     align-items: center;
     gap: 1rem;
     font-size: 15px;
+    flex-wrap: wrap;
   }
 
   img:hover {
@@ -441,17 +452,31 @@ export const StyledHeaderHomePage = styled.div`
   animation: 1s ${slideFadeAnimation};
 `;
 
+export const StyledMainSection = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  @media screen and (max-width: 950px) {
+    flex-wrap: wrap;
+    margin: 12% 0 1vh;
+  }
+`;
+
 export const StyledMainHomePage = styled.div`
   width: 80%;
-  margin: 150px auto 0;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media screen and (max-width: 479px) {
+
+  @media screen and (max-width: 850px) {
     width: 100%;
-    margin: 170px auto 0;
   }
-  @media screen and (min-width: 700px) and (max-width: 1024px) {
+
+  @media screen and (min-width: 800px) {
     .flex-wrap {
       width: 100%;
       justify-content: center;
@@ -463,11 +488,12 @@ export const StyledMainHomePage = styled.div`
 export const StyledHeaderElement = styled.h1``;
 
 export const StyledMainTextHomePage = styled.div`
+  width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
   color: ${({ theme }) => theme.colors.WhiteScreen};
-  width: 60%;
   h1 {
     max-width: 90%;
     font-size: 28px;
@@ -478,22 +504,19 @@ export const StyledMainTextHomePage = styled.div`
   p {
     max-width: 90%;
   }
-  @media screen and (max-width: 390px) {
-    margin: 0 0 2rem;
-    align-items: center;
-    text-align: center;
-    width: 95%;
+  div {
+    max-width: 90%;
+    justify-content: center;
   }
-  @media screen and (min-width: 391px) and (max-width: 479px) {
+  @media screen and (max-width: 950px) {
     margin: 0 auto 2rem;
     align-items: center;
     text-align: center;
-    width: 89%;
-  }
-  @media screen and (min-width: 700px) and (max-width: 1024px) {
     width: 100%;
-    margin-bottom: 2rem;
-    align-items: center;
+  }
+
+  @media screen and (min-width: 801px) {
+    text-align: center;
   }
 `;
 
@@ -516,15 +539,19 @@ export const StyledContainerSecondaryPage = styled.div`
 export const StyledContainer = styled.div`
   width: 90%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
   padding: 0 10% 1rem;
   flex-wrap: wrap;
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 800px) {
+    flex-direction: column-reverse;
     width: unset;
     gap: 2rem;
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 1024px) {
+    flex-direction: column-reverse;
   }
 `;
 
@@ -534,15 +561,18 @@ export const StyledInnerContentContainer = styled.div`
   p {
     color: ${({ theme }) => theme.colors.WhiteScreen};
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
     .img-jessie {
-      width: 340px;
+      width: 240px;
     }
   }
   @media screen and (min-width: 700px) and (max-width: 1024px) {
     width: 100%;
     margin-bottom: 2rem;
+    .img-jessie {
+      width: 240px;
+    }
   }
 `;
 
@@ -574,10 +604,11 @@ export const StyledContactMain = styled.div`
     width: 60%;
     color: ${({ theme }) => theme.colors.WhiteScreen};
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 850px) {
     text-align: center;
     margin: 1rem auto;
     flex-wrap: wrap;
+    gap: 1rem;
 
     p {
       width: 100%;
@@ -590,22 +621,24 @@ export const StyledSecondaryPageSection = styled.div`
   margin: 1rem auto 3rem;
   display: flex;
   flex-direction: column;
+
   color: ${({ theme }) => theme.colors.WhiteScreen};
   span {
     color: ${({ theme }) => theme.colors.CherryPink};
   }
 
-  @media screen and (max-width: 479px) {
-    flex-wrap: wrap;
+  .contacts-page-footer {
+    margin-bottom: 18%;
+  }
+
+  @media screen and (max-width: 850px) {
     h1 {
       min-width: fit-content;
     }
     .all-media-itens {
-      flex-wrap: wrap;
-    }
-  }
-  @media screen and (min-width: 700px) and (max-width: 1024px) {
-    .all-media-itens {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
     }
   }
@@ -623,9 +656,14 @@ export const StyledAllMediaComp = styled.div`
 `;
 
 export const StyledMainImgDisplay = styled.div`
+  width: 50%;
   position: relative;
   animation: 1s ${slideLeftAnimation};
-  @media screen and (max-width: 390px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 950px) {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -634,14 +672,22 @@ export const StyledMainImgDisplay = styled.div`
       width: 360px;
     }
   }
-  @media screen and (min-width: 391px) and (max-width: 479px) {
-    margin: 0 auto;
-  }
 `;
 
 export const StyledLabelImage = styled.div`
   position: absolute;
-  bottom: -235px;
+  padding: 0.7rem 2rem;
+  background-color: #e5c07a;
+  color: ${({ theme }) => theme.colors.BackgroundGrey};
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  bottom: -64px;
+  a {
+    text-decoration: underline dotted;
+    color: #311e79;
+  }
 `;
 
 export const StyledDropdown = styled.div`
@@ -719,7 +765,7 @@ export const StyledImgLeftSide = styled.div`
   flex-direction: column;
   gap: 100vh;
   overflow-y: auto;
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 `;
@@ -733,7 +779,7 @@ export const StyledImgRightSide = styled.div`
   flex-direction: column;
   gap: 100vh;
   overflow-y: hidden;
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 `;
@@ -741,5 +787,51 @@ export const StyledImgRightSide = styled.div`
 export const StyledContentDivision = styled.div`
   @media screen and (max-width: 479px) {
     width: 100%;
+  }
+`;
+
+export const StyledContentContactsPage = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+export const StyledPageContentAlign = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  gap: 1rem;
+  width: 100%;
+
+  @media screen and (max-width: 799px) {
+    padding-top: 150px;
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 850px) {
+    padding-top: 25px;
+  }
+
+  @media screen and (min-width: 851px) {
+    padding-top: 125px;
+  }
+`;
+
+export const StyledPageContentAlignSecondary = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  gap: 1rem;
+  width: 100%;
+
+  @media screen and (max-width: 799px) {
+    padding-top: 70px;
+  }
+
+  @media screen and (min-width: 800px) {
+    padding-top: 15px;
   }
 `;
