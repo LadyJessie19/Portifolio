@@ -29,7 +29,6 @@ body {
     align-items: center;
     background: var(--Usual-black);
     width: 100vw;
-    /* height: 200vh; */
 }
 
 section {
@@ -48,7 +47,7 @@ section::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#000, #645d5b, #000);
+    background: linear-gradient(#000, #2b2a2a, #000);
     animation: animate 5s linear infinite;
 }
 

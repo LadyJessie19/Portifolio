@@ -2,7 +2,7 @@ import { ButtonsPresentation, StyledMainPresentation } from "./style";
 import cv from "../../assets/cv/cv-jessie-bentes-en-us.pdf";
 import { StyledMainButton } from "../PresentationButton/style";
 
-const url = "https://www.linkedin.com/in/jessiemoura19/";
+const url = "https://jessie-bentes.vercel.app/";
 
 const MainPresentation = () => {
   return (
