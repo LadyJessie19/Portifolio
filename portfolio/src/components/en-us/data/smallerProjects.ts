@@ -50,7 +50,8 @@ const smallerProjects: Array<ISmallerProjects> = [
   {
     tools: "Java, OOP",
     title: "Classes - Java",
-    description: "Java classes to introduce the language to Arnia's students.",
+    description:
+      "Classes to introduce Java to JavaScript students, focusing on compiled languages and object-oriented programming.",
     button: "GitHub Repository",
     link: "https://github.com/LadyJessie19/JavaArnia",
   },

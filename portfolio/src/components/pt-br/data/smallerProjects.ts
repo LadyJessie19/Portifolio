@@ -52,7 +52,7 @@ const smallerProjects: Array<ISmallerProjects> = [
     tools: "Java, POO",
     title: "Aulas - Java",
     description:
-      "Aulas de Java para introduzir a liguagem aos alunos da Arnia.",
+      "Aulas para introduzir Java a estudantes de JavaScript, focando em linguagens compiladas e programação orientada a objetos.",
     button: "Repositório no GitHub",
     link: "https://github.com/LadyJessie19/JavaArnia",
   },

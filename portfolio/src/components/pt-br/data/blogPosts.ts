@@ -2,6 +2,7 @@ import TimeTravel from "../../../assets/data-images/blog-posts/time-travel.png";
 import SOLID from "../../../assets/data-images/blog-posts/solid.png";
 import SoftSkills from "../../../assets/data-images/blog-posts/soft-skills.png";
 import FullStackUX from "../../../assets/data-images/blog-posts/fullstack-ux.png";
+import DevTeacher from "../../../assets/data-images/blog-posts/dev-teacher.png";
 
 interface IBlogPost {
   img: any;
@@ -12,6 +13,14 @@ interface IBlogPost {
 }
 
 const blogPosts: Array<IBlogPost> = [
+  {
+    img: DevTeacher,
+    title: "Desenvolvedora e Professora Fullstack",
+    description:
+      "Artigo sobre minha jornada equilibrando a codificação como desenvolvedora fullstack e o ensino como instrutora.",
+    link: "https://medium.com/@jessie_moura/sobre-minha-experi%C3%AAncia-como-professora-sendo-uma-desenvolvedora-web-ca1c569e14ba",
+    button: "Leia mais",
+  },
   {
     img: SOLID,
     title: "Princípios SOLID",
