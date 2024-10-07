@@ -24,7 +24,7 @@ This repository contains two projects: my personal portfolio and a Linktree clon
 ## 📖 **Live Demos**
 
 - **[Portfolio](https://jessie-bentes.vercel.app/)**: Explore my work and projects.
-- **[Linktree](https://linktree.example.com/)**: Access all my important links in one place.
+- **[Linktree](https://jessie-bentes-linktree.vercel.app/)**: Access all my important links in one place.
 
 _Note: The portfolio and résumés are available in both English and Portuguese._
 
